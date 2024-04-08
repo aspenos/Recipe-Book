@@ -1,16 +1,412 @@
+[
 {
-    "creator": "userId",
-    "name": "Spaghetti Bolognese",
+        "name": "Creamy Leek and Potato Soup",
+        "description": "A comforting soup with sautéed leeks, potatoes, and a creamy broth.",
+        "instructions": [
+            "Sauté sliced leeks in butter until softened.",
+            "Add diced potatoes, vegetable broth, and seasonings.",
+            "Simmer until potatoes are tender and flavors meld together.",
+            "Blend the soup until smooth and creamy.",
+            "Serve hot with a garnish of fresh herbs."
+        ],
+        "ingredients": ["Leeks", "Potatoes", "Butter", "Vegetable Broth", "Seasonings", "Fresh Herbs"],
+        "categories": ["Soup", "Comfort Food"],
+        "allergens": ["Dairy"],
+        "creator": "LeekEnjoyer09",
+        "image": "https://example.com/images/creamy-leek-potato-soup.jpg"
+},
+{
+        "name": "Spaghetti Bolognese",
+        "description": "A traditional Italian dish with a meat-based sauce.",
+        "instructions": [
+            "Cook pasta according to package instructions.",
+            "Brown the ground beef in a pan.",
+            "Simmer with tomato sauce and spices."
+        ],
+        "ingredients": ["Spaghetti", "Ground Beef", "Tomato Sauce"],
+        "categories": ["Italian"],
+        "allergens": ["Gluten"],
+        "creator": "MammaMia30",
+        "image": "https://example.com/images/spaghetti-bolognese.jpg"
+},
+{
+        "name": "Vegetable Stir-Fry",
+        "description": "A quick and healthy mix of vegetables sautéed with soy sauce.",
+        "instructions": [
+            "Chop vegetables.",
+            "Stir-fry in a pan with oil and soy sauce."
+        ],
+        "ingredients": ["Bell Peppers", "Broccoli", "Carrots", "Soy Sauce"],
+        "categories": ["Chinese", "Vegan"],
+        "allergens": ["Soy"],
+        "creator": "LeekDude",
+        "image": "https://example.com/images/vegetable-stirfry.jpg"
+},
+{
+        "name": "Pumpkin Soup",
+        "description": "A creamy, comforting soup perfect for chilly evenings.",
+        "instructions": [
+            "Roast pumpkin until tender.",
+            "Blend roasted pumpkin with stock and cream.",
+            "Heat and serve with a dollop of sour cream and fresh herbs."
+        ],
+        "ingredients": ["Pumpkin", "Vegetable Stock", "Cream"],
+        "categories": ["Soup"],
+        "allergens": ["Dairy"],
+        "creator": "ChefDelight",
+        "image": "https://example.com/images/pumpkin-soup.jpg"
+},
+{
+        "name": "Beef Stroganoff",
+        "description": "A rich and hearty Russian dish featuring sautéed pieces of beef served in a sour cream sauce.",
+        "instructions": [
+            "Sauté beef and onions until browned.",
+            "Add mushrooms and cook until tender.",
+            "Stir in sour cream and heat through without boiling."
+        ],
+        "ingredients": ["Beef", "Onions", "Mushrooms", "Sour Cream"],
+        "categories": ["Russian"],
+        "allergens": ["Dairy"],
+        "creator": "GordanRamsay",
+        "image": "https://example.com/images/beef-stroganoff.jpg"
+},
+{
+        "name": "Lemon Garlic Roasted Chicken",
+        "description": "Juicy roasted chicken with a zesty lemon and garlic flavor.",
+        "instructions": [
+            "Season the chicken with lemon juice, garlic, salt, and pepper.",
+            "Roast in the oven until the skin is crispy and golden.",
+            "Let rest before serving to retain the juices."
+        ],
+        "ingredients": ["Chicken", "Lemon", "Garlic", "Salt", "Pepper"],
+        "categories": ["American"],
+        "allergens": [],
+        "creator": "PanSizzle",
+        "image": "https://example.com/images/lemon-garlic-chicken.jpg"
+},
+{
+        "name": "Mango Sticky Rice",
+        "description": "A classic Thai dessert of sweet sticky rice with fresh mango and coconut cream.",
+        "instructions": [
+            "Soak sticky rice, then steam until tender.",
+            "Mix with coconut milk and sugar, and serve with fresh mango slices.",
+            "Top with a drizzle of coconut cream."
+        ],
+        "ingredients": ["Sticky Rice", "Mango", "Coconut Milk", "Sugar"],
+        "categories": ["Thai", "Dessert"],
+        "allergens": [],
+        "creator": "TasteTrekker",
+        "image": "https://example.com/images/mango-sticky-rice.jpg"
+},
+{
+        "name": "Avocado Toast with Poached Egg",
+        "description": "A trendy, healthy, and delicious breakfast option featuring creamy avocado and a perfectly poached egg on top of toasted bread.",
+        "instructions": [
+            "Toast the bread to desired crispness.",
+            "Mash the avocado with lime juice, salt, and pepper, and spread over the toast.",
+            "Poach an egg and place it on top of the avocado spread."
+        ],
+        "ingredients": ["Bread", "Avocado", "Egg", "Lime Juice", "Salt", "Pepper"],
+        "categories": ["Breakfast"],
+        "allergens": ["Egg", "Gluten"],
+        "creator": "BreakfastBoss",
+        "image": "https://example.com/images/avocado-toast.jpg"
+},
+{
+        "name": "Chocolate Chip Cookies",
+        "description": "Classic, chewy, and delicious cookies dotted with chocolate chips.",
+        "instructions": [
+            "Cream together butter and sugars, then mix in eggs and vanilla.",
+            "Combine dry ingredients and mix into the butter mixture. Fold in chocolate chips.",
+            "Drop spoonfuls of dough onto a baking sheet and bake until golden."
+        ],
+        "ingredients": ["Butter", "Sugar", "Brown Sugar", "Eggs", "Vanilla Extract", "Flour", "Chocolate Chips"],
+        "categories": ["Dessert"],
+        "allergens": ["Gluten", "Eggs", "Dairy"],
+        "creator": "CookieCrafter",
+        "image": "https://example.com/images/chocolate-chip-cookies.jpg"
+},
+{
+        "name": "Quiche Lorraine",
+        "description": "A savory French tart filled with bacon, cheese, and a creamy egg mixture.",
+        "instructions": [
+            "Prepare the pastry crust and bake it lightly.",
+            "Cook bacon until crispy, then layer it in the crust with shredded cheese.",
+            "Pour a mixture of eggs, cream, salt, and pepper over the bacon and cheese.",
+            "Bake until the filling is set and golden."
+        ],
+        "ingredients": ["Pastry Crust", "Bacon", "Cheese", "Eggs", "Cream"],
+        "categories": ["French", "Breakfast"],
+        "allergens": ["Gluten", "Dairy", "Eggs"],
+        "creator": "AnimeLover",
+        "image": "https://example.com/images/quiche-lorraine.jpg"
+},
+{
+        "name": "Butter Chicken",
+        "description": "A rich and creamy Indian dish with tender chicken in a spiced tomato sauce.",
+        "instructions": [
+            "Marinate chicken in yogurt and spices, then grill or roast it.",
+            "Cook a tomato-based sauce with butter, cream, and spices, then add the chicken.",
+            "Simmer until the sauce thickens and the flavors meld."
+        ],
+        "ingredients": ["Chicken", "Yogurt", "Spices", "Tomato", "Butter", "Cream"],
+        "categories": ["Indian"],
+        "allergens": ["Dairy"],
+        "creator": "CurryFan",
+        "image": "https://example.com/images/butter-chicken.jpg"
+},
+{
+        "name": "Greek Salad",
+        "description": "A refreshing salad with tomatoes, cucumber, olives, feta cheese, and a light olive oil dressing.",
+        "instructions": [
+            "Chop tomatoes, cucumber, and red onion, and combine in a bowl.",
+            "Add olives and crumbled feta cheese.",
+            "Dress with olive oil, lemon juice, salt, and oregano."
+        ],
+        "ingredients": ["Tomatoes", "Cucumber", "Red Onion", "Olives", "Feta Cheese", "Olive Oil", "Lemon Juice", "Oregano"],
+        "categories": ["Greek", "Salad"],
+        "allergens": ["Dairy"],
+        "creator": "SaladSage",
+        "image": "https://example.com/images/greek-salad.jpg"
+},
+{
+        "name": "Pad Thai",
+        "description": "A popular Thai street food dish with stir-fried rice noodles, eggs, tofu, and a tangy tamarind sauce.",
+        "instructions": [
+            "Soak rice noodles in water until soft.",
+            "Stir-fry eggs, tofu, and noodles, then add tamarind sauce, fish sauce, sugar, and chili powder.",
+            "Serve with bean sprouts, peanuts, and lime wedges."
+        ],
+        "ingredients": ["Rice Noodles", "Eggs", "Tofu", "Tamarind Paste", "Fish Sauce", "Sugar", "Chili Powder", "Bean Sprouts", "Peanuts", "Lime"],
+        "categories": ["Thai"],
+        "allergens": ["Peanuts", "Eggs", "Fish"],
+        "creator": "ObnoxiousVegan123",
+        "image": "https://example.com/images/pad-thai.jpg"
+},
+{
+        "name": "Caramelized Onion Tart",
+        "description": "A savory tart with sweet caramelized onions on a flaky pastry crust.",
+        "instructions": [
+            "Caramelize onions slowly until golden.",
+            "Spread onions on pre-baked pastry crust.",
+            "Bake until crust is golden and crisp."
+        ],
+        "ingredients": ["Onions", "Pastry Crust", "Butter", "Thyme"],
+        "categories": ["French"],
+        "allergens": ["Gluten", "Dairy"],
+        "creator": "PastryChef",
+        "image": "https://example.com/images/onion-tart.jpg"
+},
+{
+        "name": "Coconut Curry Shrimp",
+        "description": "A flavorful curry dish with shrimp, coconut milk, and spices.",
+        "instructions": [
+            "Sauté shrimp and set aside.",
+            "Cook curry paste with coconut milk, then add shrimp back to the pan.",
+            "Simmer until sauce thickens."
+        ],
+        "ingredients": ["Shrimp", "Coconut Milk", "Curry Paste"],
+        "categories": ["Seafood", "Curry"],
+        "allergens": ["Shellfish"],
+        "creator": "FlavorWizard",
+        "image": "https://example.com/images/coconut-curry-shrimp.jpg"
+},
+{
+        "name": "Roasted Brussels Sprouts with Bacon",
+        "description": "Crispy roasted Brussels sprouts combined with savory bacon pieces.",
+        "instructions": [
+            "Toss Brussels sprouts with olive oil and salt.",
+            "Roast until golden and crisp.",
+            "Mix with cooked bacon pieces before serving."
+        ],
+        "ingredients": ["Brussels Sprouts", "Olive Oil", "Salt", "Bacon"],
+        "categories": ["American", "Side Dish"],
+        "allergens": [],
+        "creator": "VeggieLover",
+        "image": "https://example.com/images/brussels-sprouts-bacon.jpg"
+},
+{
+        "name": "Peach Cobbler",
+        "description": "A warm, comforting dessert made with sweet peaches and a biscuit-like topping.",
+        "instructions": [
+            "Layer sliced peaches in a baking dish.",
+            "Top with a mixture of flour, sugar, and butter.",
+            "Bake until the topping is golden and the peaches are bubbly."
+        ],
+        "ingredients": ["Peaches", "Flour", "Sugar", "Butter"],
+        "categories": ["Dessert"],
+        "allergens": ["Gluten", "Dairy"],
+        "creator": "SweetTooth",
+        "image": "https://example.com/images/peach-cobbler.jpg"
+},
+{
+    "name": "Chicken Alfredo",
+    "description": "Creamy pasta dish with grilled chicken.",
     "instructions": [
-      "Boil pasta until al dente.",
-      "Cook ground beef in a pan until brown.",
-      "Mix pasta with sauce and beef, serve with grated cheese."
+        "Cook fettuccine pasta until al dente.",
+        "Grill chicken breasts until cooked through.",
+        "Combine pasta, grilled chicken, and Alfredo sauce.",
+        "Serve hot with grated Parmesan cheese."
     ],
-    "ingredients": [
-      {"id": "ingredientId1", "amount": "200g"},
-      {"id": "ingredientId2", "amount": "100g"}
+    "ingredients": ["Fettuccine Pasta", "Chicken Breasts", "Alfredo Sauce", "Parmesan Cheese"],
+    "categories": ["Italian", "Pasta"],
+    "allergens": ["Dairy"],
+    "creator": "ChefGusto",
+    "image": "https://example.com/images/chicken-alfredo.jpg"
+},
+{
+    "name": "Vegetarian Chili",
+    "description": "Hearty chili loaded with beans, vegetables, and spices.",
+    "instructions": [
+        "Sauté onions, bell peppers, and garlic in a pot.",
+        "Add canned tomatoes, kidney beans, black beans, and corn.",
+        "Season with chili powder, cumin, and paprika.",
+        "Simmer for 30 minutes until flavors meld together."
     ],
-    "description": "A classic Italian pasta dish with a rich tomato sauce and hearty meat.",
-    "isMyGrandmas": false
-  }
-  
+    "ingredients": ["Onions", "Bell Peppers", "Garlic", "Canned Tomatoes", "Kidney Beans", "Black Beans", "Corn", "Chili Powder", "Cumin", "Paprika"],
+    "categories": ["Chili", "Vegetarian"],
+    "allergens": [],
+    "creator": "VeggieEater21",
+    "image": "https://example.com/images/vegetarian-chili.jpg"
+},
+{
+    "name": "Grilled Salmon with Lemon Butter Sauce",
+    "description": "Delicious grilled salmon fillets with a tangy lemon butter sauce.",
+    "instructions": [
+        "Season salmon fillets with salt, pepper, and lemon zest.",
+        "Grill until cooked through and lightly charred.",
+        "Prepare a sauce with butter, lemon juice, and fresh herbs.",
+        "Serve grilled salmon drizzled with lemon butter sauce."
+    ],
+    "ingredients": ["Salmon Fillets", "Salt", "Pepper", "Lemon Zest", "Butter", "Lemon Juice", "Fresh Herbs"],
+    "categories": ["Seafood", "Grilling"],
+    "allergens": ["Fish"],
+    "creator": "Fishman38",
+    "image": "https://example.com/images/grilled-salmon.jpg"
+},
+{
+    "name": "Margherita Pizza",
+    "description": "Classic Italian pizza with tomatoes, basil, and mozzarella cheese.",
+    "instructions": [
+        "Preheat oven to 450°F (230°C).",
+        "Roll out pizza dough on a baking sheet.",
+        "Spread tomato sauce over the dough.",
+        "Top with fresh basil leaves and slices of mozzarella cheese.",
+        "Bake for 10-12 minutes until crust is golden and cheese melts.",
+        "Drizzle with olive oil before serving."
+    ],
+    "ingredients": ["Pizza Dough", "Tomato Sauce", "Fresh Basil", "Mozzarella Cheese", "Olive Oil"],
+    "categories": ["Italian", "Pizza"],
+    "allergens": ["Dairy", "Gluten"],
+    "creator": "Zaboi69",
+    "image": "https://example.com/images/margherita-pizza.jpg"
+},
+{
+    "name": "Chicken Caesar Salad",
+    "description": "Classic salad with grilled chicken, romaine lettuce, croutons, and Caesar dressing.",
+    "instructions": [
+        "Grill chicken breast until cooked and slice into strips.",
+        "Toss romaine lettuce with Caesar dressing.",
+        "Top with grilled chicken, croutons, and grated Parmesan cheese.",
+        "Serve chilled as a refreshing salad."
+    ],
+    "ingredients": ["Chicken Breast", "Romaine Lettuce", "Caesar Dressing", "Croutons", "Parmesan Cheese"],
+    "categories": ["Salad", "Chicken"],
+    "allergens": ["Dairy", "Gluten"],
+    "creator": "SaladMaster",
+    "image": "https://example.com/images/chicken-caesar-salad.jpg"
+},
+{
+    "name": "Beef Tacos",
+    "description": "Mexican tacos filled with seasoned ground beef, lettuce, cheese, and salsa.",
+    "instructions": [
+        "Brown ground beef in a skillet and season with taco seasoning.",
+        "Warm corn tortillas on a griddle.",
+        "Fill tortillas with beef, shredded lettuce, grated cheese, and salsa.",
+        "Fold tortillas and serve hot with additional toppings."
+    ],
+    "ingredients": ["Ground Beef", "Taco Seasoning", "Corn Tortillas", "Lettuce", "Cheese", "Salsa"],
+    "categories": ["Mexican", "Tacos"],
+    "allergens": ["Dairy", "Gluten"],
+    "creator": "MexicanChef",
+    "image": "https://example.com/images/beef-tacos.jpg"
+},
+{
+    "name": "Spinach and Feta Stuffed Chicken Breast",
+    "description": "Juicy chicken breasts stuffed with spinach, feta cheese, and herbs.",
+    "instructions": [
+        "Butterfly chicken breasts and season with salt and pepper.",
+        "Mix spinach, feta cheese, garlic, and herbs.",
+        "Stuff the chicken breasts with the spinach and feta mixture.",
+        "Bake in the oven until chicken is cooked through.",
+        "Serve hot with a side of roasted vegetables."
+    ],
+    "ingredients": ["Chicken Breasts", "Spinach", "Feta Cheese", "Garlic", "Herbs", "Salt", "Pepper"],
+    "categories": ["Chicken", "Baked"],
+    "allergens": ["Dairy"],
+    "creator": "ChefDelight",
+    "image": "https://example.com/images/spinach-feta-chicken.jpg"
+},
+{
+    "name": "Mushroom Risotto",
+    "description": "Creamy Italian risotto with mushrooms, onions, and Parmesan cheese.",
+    "instructions": [
+        "Sauté onions and mushrooms in butter until golden.",
+        "Add Arborio rice and cook until translucent.",
+        "Gradually add hot chicken or vegetable broth, stirring constantly.",
+        "Finish with Parmesan cheese and fresh herbs.",
+        "Serve hot as a comforting and flavorful dish."
+    ],
+    "ingredients": ["Arborio Rice", "Mushrooms", "Onions", "Butter", "Chicken Broth", "Vegetable Broth", "Parmesan Cheese", "Herbs"],
+    "categories": ["Italian", "Risotto"],
+    "allergens": ["Dairy"],
+    "creator": "MarxFan30",
+    "image": "https://example.com/images/mushroom-risotto.jpg"
+},
+{
+    "name": "Vegetable Curry",
+    "description": "A flavorful and aromatic curry with mixed vegetables and spices.",
+    "instructions": [
+        "Sauté onions, garlic, and ginger in oil until fragrant.",
+        "Add mixed vegetables like potatoes, carrots, and peas.",
+        "Stir in curry powder, turmeric, and coconut milk.",
+        "Simmer until vegetables are tender and sauce is thickened.",
+        "Serve hot over steamed rice or with naan bread."
+    ],
+    "ingredients": ["Onions", "Garlic", "Ginger", "Mixed Vegetables", "Curry Powder", "Turmeric", "Coconut Milk"],
+    "categories": ["Curry", "Vegetarian"],
+    "allergens": [],
+    "creator": "ChefCurry",
+    "image": "https://example.com/images/vegetable-curry.jpg"
+},
+{
+    "name": "Lemon Blueberry Pancakes",
+    "description": "Fluffy pancakes bursting with fresh blueberries and a hint of lemon zest.",
+    "instructions": [
+        "Mix flour, sugar, baking powder, and salt in a bowl.",
+        "Whisk in eggs, milk, melted butter, lemon zest, and blueberries.",
+        "Pour batter onto a hot griddle and cook until golden brown.",
+        "Serve warm with maple syrup and extra blueberries."
+    ],
+    "ingredients": ["Flour", "Sugar", "Baking Powder", "Salt", "Eggs", "Milk", "Butter", "Lemon Zest", "Blueberries", "Maple Syrup"],
+    "categories": ["Breakfast", "Pancakes"],
+    "allergens": ["Dairy", "Gluten"],
+    "creator": "PancakeBro",
+    "image": "https://example.com/images/lemon-blueberry-pancakes.jpg"
+},
+{
+    "name": "Grilled Leeks with Lemon Vinaigrette",
+    "description": "Tender grilled leeks drizzled with a tangy lemon dressing.",
+    "instructions": [
+        "Trim and halve leeks lengthwise, then grill until tender.",
+        "Prepare a lemon vinaigrette with olive oil, lemon juice, and herbs.",
+        "Drizzle the grilled leeks with the lemon vinaigrette.",
+        "Serve as a flavorful side dish or appetizer."
+    ],
+    "ingredients": ["Leeks", "Olive Oil", "Lemon Juice", "Herbs"],
+    "categories": ["Vegetables", "Grilling"],
+    "allergens": [],
+    "creator": "MrLeek420",
+    "image": "https://example.com/images/grilled-leeks-lemon-vinaigrette.jpg"
+}
+]
