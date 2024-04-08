@@ -1,0 +1,6 @@
+{
+    "name": "Tomato",
+    "calorieUnitG": 18,
+    "category": ["categoryId1"],
+    "allergens": ["allergenId1"]
+  }

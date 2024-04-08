@@ -1,0 +1,6 @@
+{
+    "username": "user123",
+    "password": "password",  
+    "email": "user123@example.com",
+    "favorites": ["recipeId1", "recipeId2"]
+  }

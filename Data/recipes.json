@@ -1,0 +1,16 @@
+{
+    "creator": "userId",
+    "name": "Spaghetti Bolognese",
+    "instructions": [
+      "Boil pasta until al dente.",
+      "Cook ground beef in a pan until brown.",
+      "Mix pasta with sauce and beef, serve with grated cheese."
+    ],
+    "ingredients": [
+      {"id": "ingredientId1", "amount": "200g"},
+      {"id": "ingredientId2", "amount": "100g"}
+    ],
+    "description": "A classic Italian pasta dish with a rich tomato sauce and hearty meat.",
+    "isMyGrandmas": false
+  }
+  
