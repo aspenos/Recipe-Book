@@ -53,7 +53,7 @@
         "ingredients": ["Pumpkin", "Vegetable Stock", "Cream"],
         "categories": ["Soup"],
         "allergens": ["Dairy"],
-        "creator": "ChefDelight",
+        "creator": "GordanRamsay",
         "image": "https://example.com/images/pumpkin-soup.jpg"
 },
 {
@@ -81,7 +81,7 @@
         "ingredients": ["Chicken", "Lemon", "Garlic", "Salt", "Pepper"],
         "categories": ["American"],
         "allergens": [],
-        "creator": "PanSizzle",
+        "creator": "AnimeLover",
         "image": "https://example.com/images/lemon-garlic-chicken.jpg"
 },
 {
@@ -95,7 +95,7 @@
         "ingredients": ["Sticky Rice", "Mango", "Coconut Milk", "Sugar"],
         "categories": ["Thai", "Dessert"],
         "allergens": [],
-        "creator": "TasteTrekker",
+        "creator": "LeekEnjoyer09",
         "image": "https://example.com/images/mango-sticky-rice.jpg"
 },
 {
@@ -109,7 +109,7 @@
         "ingredients": ["Bread", "Avocado", "Egg", "Lime Juice", "Salt", "Pepper"],
         "categories": ["Breakfast"],
         "allergens": ["Egg", "Gluten"],
-        "creator": "BreakfastBoss",
+        "creator": "AnimeLover",
         "image": "https://example.com/images/avocado-toast.jpg"
 },
 {
@@ -123,7 +123,7 @@
         "ingredients": ["Butter", "Sugar", "Brown Sugar", "Eggs", "Vanilla Extract", "Flour", "Chocolate Chips"],
         "categories": ["Dessert"],
         "allergens": ["Gluten", "Eggs", "Dairy"],
-        "creator": "CookieCrafter",
+        "creator": "LeekEnjoyer09",
         "image": "https://example.com/images/chocolate-chip-cookies.jpg"
 },
 {
@@ -152,7 +152,7 @@
         "ingredients": ["Chicken", "Yogurt", "Spices", "Tomato", "Butter", "Cream"],
         "categories": ["Indian"],
         "allergens": ["Dairy"],
-        "creator": "CurryFan",
+        "creator": "LeekEnjoyer09",
         "image": "https://example.com/images/butter-chicken.jpg"
 },
 {
@@ -166,7 +166,7 @@
         "ingredients": ["Tomatoes", "Cucumber", "Red Onion", "Olives", "Feta Cheese", "Olive Oil", "Lemon Juice", "Oregano"],
         "categories": ["Greek", "Salad"],
         "allergens": ["Dairy"],
-        "creator": "SaladSage",
+        "creator": "LeekEnjoyer09",
         "image": "https://example.com/images/greek-salad.jpg"
 },
 {
@@ -194,7 +194,7 @@
         "ingredients": ["Onions", "Pastry Crust", "Butter", "Thyme"],
         "categories": ["French"],
         "allergens": ["Gluten", "Dairy"],
-        "creator": "PastryChef",
+        "creator": "MammaMia30",
         "image": "https://example.com/images/onion-tart.jpg"
 },
 {
@@ -208,7 +208,7 @@
         "ingredients": ["Shrimp", "Coconut Milk", "Curry Paste"],
         "categories": ["Seafood", "Curry"],
         "allergens": ["Shellfish"],
-        "creator": "FlavorWizard",
+        "creator": "MammaMia30",
         "image": "https://example.com/images/coconut-curry-shrimp.jpg"
 },
 {
@@ -222,7 +222,7 @@
         "ingredients": ["Brussels Sprouts", "Olive Oil", "Salt", "Bacon"],
         "categories": ["American", "Side Dish"],
         "allergens": [],
-        "creator": "VeggieLover",
+        "creator": "MammaMia30",
         "image": "https://example.com/images/brussels-sprouts-bacon.jpg"
 },
 {
@@ -236,7 +236,7 @@
         "ingredients": ["Peaches", "Flour", "Sugar", "Butter"],
         "categories": ["Dessert"],
         "allergens": ["Gluten", "Dairy"],
-        "creator": "SweetTooth",
+        "creator": "ObnoxiousVegan123",
         "image": "https://example.com/images/peach-cobbler.jpg"
 },
 {
@@ -298,7 +298,7 @@
     "ingredients": ["Pizza Dough", "Tomato Sauce", "Fresh Basil", "Mozzarella Cheese", "Olive Oil"],
     "categories": ["Italian", "Pizza"],
     "allergens": ["Dairy", "Gluten"],
-    "creator": "Zaboi69",
+    "creator": "NomNomNom123",
     "image": "https://example.com/images/margherita-pizza.jpg"
 },
 {
@@ -313,7 +313,7 @@
     "ingredients": ["Chicken Breast", "Romaine Lettuce", "Caesar Dressing", "Croutons", "Parmesan Cheese"],
     "categories": ["Salad", "Chicken"],
     "allergens": ["Dairy", "Gluten"],
-    "creator": "SaladMaster",
+    "creator": "Saladad",
     "image": "https://example.com/images/chicken-caesar-salad.jpg"
 },
 {
@@ -328,7 +328,7 @@
     "ingredients": ["Ground Beef", "Taco Seasoning", "Corn Tortillas", "Lettuce", "Cheese", "Salsa"],
     "categories": ["Mexican", "Tacos"],
     "allergens": ["Dairy", "Gluten"],
-    "creator": "MexicanChef",
+    "creator": "ChefGusto",
     "image": "https://example.com/images/beef-tacos.jpg"
 },
 {
@@ -344,7 +344,7 @@
     "ingredients": ["Chicken Breasts", "Spinach", "Feta Cheese", "Garlic", "Herbs", "Salt", "Pepper"],
     "categories": ["Chicken", "Baked"],
     "allergens": ["Dairy"],
-    "creator": "ChefDelight",
+    "creator": "Fishman38",
     "image": "https://example.com/images/spinach-feta-chicken.jpg"
 },
 {
@@ -376,7 +376,7 @@
     "ingredients": ["Onions", "Garlic", "Ginger", "Mixed Vegetables", "Curry Powder", "Turmeric", "Coconut Milk"],
     "categories": ["Curry", "Vegetarian"],
     "allergens": [],
-    "creator": "ChefCurry",
+    "creator": "ObnoxiousVegan123",
     "image": "https://example.com/images/vegetable-curry.jpg"
 },
 {
@@ -408,5 +408,34 @@
     "allergens": [],
     "creator": "MrLeek420",
     "image": "https://example.com/images/grilled-leeks-lemon-vinaigrette.jpg"
+},
+{
+    "name": "Garlic Butter Shrimp",
+    "description": "Tender shrimp cooked in a flavorful garlic butter sauce.",
+    "instructions": [
+        "Sauté minced garlic in butter until fragrant.",
+        "Add shrimp and cook until pink and opaque.",
+        "Season with salt, pepper, and fresh herbs.",
+        "Serve hot with a side of crusty bread."
+    ],
+    "ingredients": ["Shrimp", "Garlic", "Butter", "Salt", "Pepper", "Fresh Herbs", "Crusty Bread"],
+    "categories": ["Seafood"],
+    "allergens": ["Shellfish", "Dairy"],
+    "creator": "NomNomNom123",
+    "image": "https://example.com/images/garlic-butter-shrimp.jpg"
+},
+{
+    "name": "Caprese Salad",
+    "description": "A simple and refreshing salad with tomatoes, mozzarella, basil, and balsamic glaze.",
+    "instructions": [
+        "Slice tomatoes and fresh mozzarella cheese.",
+        "Arrange them on a plate with fresh basil leaves.",
+        "Drizzle with balsamic glaze and a sprinkle of salt and pepper."
+    ],
+    "ingredients": ["Tomatoes", "Mozzarella Cheese", "Basil", "Balsamic Glaze", "Salt", "Pepper"],
+    "categories": ["Salad", "Italian"],
+    "allergens": ["Dairy"],
+    "creator": "Saladad",
+    "image": "https://example.com/images/caprese-salad.jpg"
 }
 ]

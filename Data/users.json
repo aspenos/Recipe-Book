@@ -1,6 +1,62 @@
-{
-    "username": "user123",
-    "password": "password",  
-    "email": "user123@example.com",
-    "favorites": ["recipeId1", "recipeId2"]
-  }
+[
+    {
+        "username": "LeekEnjoyer09",
+        "password": "password123", 
+        "email": "LeekEnjoy09@example.com",
+        "favorites": ["Spaghetti Bolognese", "Chicken Alfredo"]
+    },
+    {
+        "username": "AnimeLover",
+        "password": "securepassword123",
+        "email": "AnimeLover@example.com",
+        "favorites": ["Vegetable Stir-Fry"]
+    },
+    {
+        "username": "MammaMia30",
+        "password": "password123", 
+        "email": "MammaMia@example.com",
+        "favorites": ["Creamy Leek and Potato Soup", "Pumpkin Soup", "Beef Stronganoff"]
+    },
+    {
+        "username": "GordonRamsay",
+        "password": "securepassword123",
+        "email": "Gordon@example.com",
+        "favorites": ["Lemon Garlic Roasted Chicken", "Mango Sticky Rice"]
+    },
+    {
+        "username": "ObnoxiousVegan123",
+        "password": "password123", 
+        "email": "Vegan@example.com",
+        "favorites": ["Avocado Toast with Poached Egg", "Chocolate Chip Cookies", "Quiche Lorraine", "Butter Chicken"]
+    },
+    {
+        "username": "ChefGusto",
+        "password": "securepassword123",
+        "email": "Gusto@example.com",
+        "favorites": ["Vegetable Stir-Fry", "Beef Tacos"]
+    },
+    {
+        "username": "MarxFan",
+        "password": "password123", 
+        "email": "Marx@example.com",
+        "favorites": ["Greek Salad", "Garlic Butter Shrimp"]
+    },
+    {
+        "username": "PancakeBro",
+        "password": "securepassword123",
+        "email": "Bro@example.com",
+        "favorites": ["Pad Thai", "Margherita Pizza"]
+    },
+    {
+        "username": "NomNomNom123",
+        "password": "password123", 
+        "email": "Nom@example.com",
+        "favorites": ["Caramelized Onion Tart", "Coconut Curry Shrimp", "Roasted Brussels Sprouts with Bacon"]
+    },
+    {
+        "username": "Saladad",
+        "password": "securepassword123",
+        "email": "Dad@example.com",
+        "favorites": ["Peach Cobbler", "Chicken Alfredo", "Vegetarian Chili", "Grilled Salmon with Lemon Butter Sauce"]
+    }
+]
