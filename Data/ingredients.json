@@ -1,6 +1,500 @@
+[
 {
-    "name": "Tomato",
+    "name": "Butter",
+    "calorieUnitG": 38,
+    "category": ["dairyId"],
+    "allergens": ["dairyAllergenId"]
+  },
+  {
+    "name": "Vegetable Broth",
     "calorieUnitG": 18,
-    "category": ["categoryId1"],
-    "allergens": ["allergenId1"]
+    "category": ["soupId"],
+    "allergens": []
+  },
+  {
+    "name": "Seasonings",
+    "calorieUnitG": 8,
+    "category": ["herbsandSpicesId"],
+    "allergens": []
+  },
+  {
+    "name": "Herbs",
+    "calorieUnitG": 6,
+    "category": ["herbsandSpicesId"],
+    "allergens": []
+  },
+  {
+    "name": "Spaghetti",
+    "calorieUnitG": 108,
+    "category": ["pastaId"],
+    "allergens": ["glutenAllergenId"]
+  },
+  {
+    "name": "Ground Beef",
+    "calorieUnitG": 208,
+    "category": ["meatId"],
+    "allergens": []
+  },
+  {
+    "name": "Tomato Sauce",
+    "calorieUnitG": 68,
+    "category": ["sauceId"],
+    "allergens": []
+  },
+  {
+    "name": "Bell Peppers",
+    "calorieUnitG": 118,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Broccoli",
+    "calorieUnitG": 13,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Carrots",
+    "calorieUnitG": 14,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Soy Sauce",
+    "calorieUnitG": 208,
+    "category": ["sauceId"],
+    "allergens": ["soyAllergenId"]
+  },
+  {
+    "name": "Pumpkin",
+    "calorieUnitG": 28,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Vegetable Stock",
+    "calorieUnitG": 200,
+    "category": ["soupId"],
+    "allergens": []
+  },
+  {
+    "name": "Cream",
+    "calorieUnitG": 165,
+    "category": ["dairyId"],
+    "allergens": ["dairyAllergenId"]
+  },
+  {
+    "name": "Onions",
+    "calorieUnitG": 25,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Mushrooms",
+    "calorieUnitG": 76,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Chicken",
+    "calorieUnitG": 400,
+    "category": ["meatId"],
+    "allergens": []
+  },
+  {
+    "name": "Lemon",
+    "calorieUnitG": 35,
+    "category": ["fruitId"],
+    "allergens": []
+  },
+  {
+    "name": "Garlic",
+    "calorieUnitG": 9,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Salt",
+    "calorieUnitG": 12,
+    "category": ["herbsandSpicesId"],
+    "allergens": []
+  },
+  {
+    "name": "Pepper",
+    "calorieUnitG": 14,
+    "category": ["herbsandSpicesId"],
+    "allergens": []
+  },
+  {
+    "name": "Sticky Rice",
+    "calorieUnitG": 358,
+    "category": ["riceId"],
+    "allergens": ["glutenAllergenId"]
+  },
+  {
+    "name": "Mango",
+    "calorieUnitG": 20,
+    "category": ["fruitId"],
+    "allergens": []
+  },
+  {
+    "name": "Coconut Milk",
+    "calorieUnitG": 18,
+    "category": ["dairyAlternativeId"],
+    "allergens": []
+  },
+  {
+    "name": "Sugar",
+    "calorieUnitG": 47,
+    "category": ["herbsandSpicesId"],
+    "allergens": []
+  },
+  {
+    "name": "Bread",
+    "calorieUnitG": 120,
+    "category": ["grainsId"],
+    "allergens": ["glutenAllergenId"]
+  },
+  {
+    "name": "Avocado",
+    "calorieUnitG": 42,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Egg",
+    "calorieUnitG": 340,
+    "category": ["meatId"],
+    "allergens": ["eggAllergenId"]
+  },
+  {
+    "name": "Lime Juice",
+    "calorieUnitG": 98,
+    "category": ["fruitId"],
+    "allergens": []
+  },
+  {
+    "name": "Pastry Crust",
+    "calorieUnitG": 103,
+    "category": ["grainsId"],
+    "allergens": ["glutenAllergenId"]
+  },
+  {
+    "name": "Bacon",
+    "calorieUnitG": 603,
+    "category": ["meatId"],
+    "allergens": []
+  },
+  {
+    "name": "Cheese",
+    "calorieUnitG": 504,
+    "category": ["cheeseId"],
+    "allergens": ["dairyAllergenId"]
+  },
+  {
+    "name": "Yogurt",
+    "calorieUnitG": 321,
+    "category": ["dairyId"],
+    "allergens": ["dairyAllergenId"]
+  },
+  {
+    "name": "Spices",
+    "calorieUnitG": 18,
+    "category": ["herbsandSpicesId"],
+    "allergens": []
+  },
+  {
+    "name": "Tomato",
+    "calorieUnitG": 15,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Cucumber",
+    "calorieUnitG": 10,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Red Onion",
+    "calorieUnitG": 15,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Olives",
+    "calorieUnitG": 6,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Feta Cheese",
+    "calorieUnitG": 201,
+    "category": ["cheeseId"],
+    "allergens": ["dairyAllergenId"]
+  },
+  {
+    "name": "Olive Oil",
+    "calorieUnitG": 178,
+    "category": ["cookingId"],
+    "allergens": []
+  },
+  {
+    "name": "Oregano",
+    "calorieUnitG": 23,
+    "category": ["herbsandSpicesId"],
+    "allergens": []
+  },
+  {
+    "name": "Rice Noodles",
+    "calorieUnitG": 605,
+    "category": ["pastaId"],
+    "allergens": ["glutenAllergenId"]
+  },
+  {
+    "name": "Tamarind Paste",
+    "calorieUnitG": 21,
+    "category": ["sauceId"],
+    "allergens": []
+  },
+  {
+    "name": "Fish Sauce",
+    "calorieUnitG": 504,
+    "category": ["sauceId"],
+    "allergens": ["fishAllergenId"]
+  },
+  {
+    "name": "Chili Powder",
+    "calorieUnitG": 100,
+    "category": ["herbsandSpicesId"],
+    "allergens": []
+  },
+  {
+    "name": "Bean Sprouts",
+    "calorieUnitG": 3,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Peanuts",
+    "calorieUnitG": 17,
+    "category": ["legumesId"],
+    "allergens": ["nutAllergenId"]
+  },
+  {
+    "name": "Lime",
+    "calorieUnitG": 9,
+    "category": ["fruitId"],
+    "allergens": []
+  },
+  {
+    "name": "Thyme",
+    "calorieUnitG": 3,
+    "category": ["herbsAndSpicesId"],
+    "allergens": []
+  },
+  {
+    "name": "Curry Paste",
+    "calorieUnitG": 230,
+    "category": ["sauceId"],
+    "allergens": []
+  },
+  {
+    "name": "Brussel Sprouts",
+    "calorieUnitG": 2,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Peach",
+    "calorieUnitG": 102,
+    "category": ["fruitId"],
+    "allergens": []
+  },
+  {
+    "name": "Flour",
+    "calorieUnitG": 8,
+    "category": ["grainsId"],
+    "allergens": ["glutenAllergenId"]
+  },
+  {
+    "name": "Fettuccine Pasta",
+    "calorieUnitG": 402,
+    "category": ["pastaId"],
+    "allergens": ["glutenAllergenId"]
+  },
+  {
+    "name": "Chicken Breast",
+    "calorieUnitG": 302,
+    "category": ["meatId"],
+    "allergens": []
+  },
+  {
+    "name": "Alfredo Sauce",
+    "calorieUnitG": 101,
+    "category": ["sauceId"],
+    "allergens": []
+  },
+  {
+    "name": "Parmesan Cheese",
+    "calorieUnitG": 105,
+    "category": ["cheeseId"],
+    "allergens": ["dairyAllergenId"]
+  },
+  {
+    "name": "Kidney Beans",
+    "calorieUnitG": 104,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Black Beans",
+    "calorieUnitG": 108,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Corn",
+    "calorieUnitG": 76,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Salmon Fillet",
+    "calorieUnitG": 201,
+    "category": ["meatId"],
+    "allergens": ["fishAllergenId"]
+  },
+  {
+    "name": "Lemon Zest",
+    "calorieUnitG": 28,
+    "category": ["condimentId"],
+    "allergens": []
+  },
+  {
+    "name": "Pizza Dough",
+    "calorieUnitG": 200,
+    "category": ["grainsId"],
+    "allergens": ["glutenAllergenId"]
+  },
+  {
+    "name": "Fresh Basil",
+    "calorieUnitG": 18,
+    "category": ["herbsAndSpicesId"],
+    "allergens": []
+  },
+  {
+    "name": "Romain Lettuce",
+    "calorieUnitG": 28,
+    "category": ["dairyAlternativeId"],
+    "allergens": []
+  },
+  {
+    "name": "Caesar Dressing",
+    "calorieUnitG": 37,
+    "category": ["condimentId"],
+    "allergens": []
+  },
+  {
+    "name": "Croutons",
+    "calorieUnitG": 2,
+    "category": ["condimentId"],
+    "allergens": []
+  },
+  {
+    "name": "Taco Seasoning",
+    "calorieUnitG": 14,
+    "category": ["herbsAndSpicesId"],
+    "allergens": []
+  },
+  {
+    "name": "Corn Tortillas",
+    "calorieUnitG": 102,
+    "category": ["grainsId"],
+    "allergens": ["glutenAllergenId"]
+  },
+  {
+    "name": "Salsa",
+    "calorieUnitG": 58,
+    "category": ["sauceId"],
+    "allergens": []
+  },
+  {
+    "name": "Spinach",
+    "calorieUnitG": 10,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Arborio Rice",
+    "calorieUnitG": 178,
+    "category": ["riceId"],
+    "allergens": []
+  },
+  {
+    "name": "Chicken Broth",
+    "calorieUnitG": 128,
+    "category": ["soupId"],
+    "allergens": []
+  },
+  {
+    "name": "Ginger",
+    "calorieUnitG": 138,
+    "category": ["herbsAndSpicesId"],
+    "allergens": []
+  },
+  {
+    "name": "Curry Powder",
+    "calorieUnitG": 178,
+    "category": ["herbsAndSpicesId"],
+    "allergens": []
+  },
+  {
+    "name": "Blueberries",
+    "calorieUnitG": 18,
+    "category": ["fruitId"],
+    "allergens": []
+  },
+  {
+    "name": "Maple Syrup",
+    "calorieUnitG": 400,
+    "category": ["syrupId"],
+    "allergens": []
+  },
+  {
+    "name": "Baking Powder",
+    "calorieUnitG": 10,
+    "category": ["cookingId"],
+    "allergens": []
+  },
+  {
+    "name": "Milk",
+    "calorieUnitG": 189,
+    "category": ["dairyId"],
+    "allergens": ["dairyAllergenId"]
+  },
+  {
+    "name": "Crusty Bread",
+    "calorieUnitG": 135,
+    "category": ["grainsId"],
+    "allergens": ["glutenAllergenId"]
+  },
+  {
+    "name": "Balsamic Glaze",
+    "calorieUnitG": 18,
+    "category": ["condimentId"],
+    "allergens": []
+  },
+  {
+    "name": "Leeks",
+    "calorieUnitG": 5,
+    "category": ["vegetableId"],
+    "allergens": []
+  },
+  {
+    "name": "Potatoes",
+    "calorieUnitG": 204,
+    "category": ["vegetableId"],
+    "allergens": []
   }
+]
