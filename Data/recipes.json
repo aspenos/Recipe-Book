@@ -122,7 +122,7 @@
         ],
         "ingredients": ["Butter", "Sugar", "Brown Sugar", "Eggs", "Vanilla Extract", "Flour", "Chocolate Chips"],
         "categories": ["Dessert"],
-        "allergens": ["Gluten", "Eggs", "Dairy"],
+        "allergens": ["Gluten", "Egg", "Dairy"],
         "creator": "LeekEnjoyer09",
         "image": "https://example.com/images/chocolate-chip-cookies.jpg"
 },
@@ -137,7 +137,7 @@
         ],
         "ingredients": ["Pastry Crust", "Bacon", "Cheese", "Eggs", "Cream"],
         "categories": ["French", "Breakfast"],
-        "allergens": ["Gluten", "Dairy", "Eggs"],
+        "allergens": ["Gluten", "Dairy", "Egg"],
         "creator": "AnimeLover",
         "image": "https://example.com/images/quiche-lorraine.jpg"
 },
@@ -179,7 +179,7 @@
         ],
         "ingredients": ["Rice Noodles", "Eggs", "Tofu", "Tamarind Paste", "Fish Sauce", "Sugar", "Chili Powder", "Bean Sprouts", "Peanuts", "Lime"],
         "categories": ["Thai"],
-        "allergens": ["Peanuts", "Eggs", "Fish"],
+        "allergens": ["Peanut", "Egg", "Fish"],
         "creator": "ObnoxiousVegan123",
         "image": "https://example.com/images/pad-thai.jpg"
 },

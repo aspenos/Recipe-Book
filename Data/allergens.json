@@ -1,3 +1,10 @@
-{
-    "name": "Peanuts"
-  }
+[
+    { "id": "glutenAllergenId", "name": "Gluten" },
+    { "id": "nutAllergenId", "name": "Nuts" },
+    { "id": "dairyAllergenId", "name": "Dairy" },
+    { "id": "soyAllergenId", "name": "Soy" },
+    { "id": "eggAllergenId", "name": "Egg" },
+    { "id": "fishAllergenId", "name": "Fish" },
+    { "id": "shellfishAllergenId", "name": "Shellfish" }
+    
+]
