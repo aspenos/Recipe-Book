@@ -6,5 +6,4 @@
     { "id": "eggAllergenId", "name": "Egg" },
     { "id": "fishAllergenId", "name": "Fish" },
     { "id": "shellfishAllergenId", "name": "Shellfish" }
-    
 ]
