@@ -8,11 +8,11 @@
     "name": "Vegetable Broth"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Seasonings"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Herbs"
   },
   {
@@ -80,11 +80,11 @@
     "name": "Garlic"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Salt"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Pepper"
   },
   {
@@ -100,7 +100,7 @@
     "name": "Coconut Milk"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Sugar"
   },
   {
@@ -136,7 +136,7 @@
     "name": "Yogurt"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Spices"
   },
   {
@@ -164,7 +164,7 @@
     "name": "Olive Oil"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Oregano"
   },
   {
@@ -184,7 +184,7 @@
     "name": "Fish Sauce"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Chili Powder"
   },
   {
@@ -200,7 +200,7 @@
     "name": "Lime"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Thyme"
   },
   {
@@ -260,7 +260,7 @@
     "name": "Pizza Dough"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Fresh Basil"
   },
   {
@@ -276,7 +276,7 @@
     "name": "Croutons"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Taco Seasoning"
   },
   {
@@ -300,15 +300,15 @@
     "name": "Chicken Broth"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Ginger"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Curry Powder"
   },
   {
-    "id": "HerbsandSpicesId",
+    "id": "herbsAndSpicesId",
     "name": "Tumeric"
   },
   {
