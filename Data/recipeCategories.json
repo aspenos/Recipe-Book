@@ -1,0 +1,118 @@
+[
+    {
+        "id": "soupCategoryId",
+        "name": "Soup"
+    },
+    {
+        "id": "comfortFoodCategoryId",
+        "name": "Comfort Food"
+    },
+    {
+        "id": "italianCategoryId",
+        "name": "Italian"
+    },
+    {
+        "id": "chineseCategoryId",
+        "name": "Chinese"
+    },
+    {
+        "id": "veganCategoryId",
+        "name": "Vegan"
+    },
+    {
+        "id": "russianCategoryId",
+        "name": "Russian"
+    },
+    {
+        "id": "americanCategoryId",
+        "name": "American"
+    },
+    {
+        "id": "thaiCategoryId",
+        "name": "Thai"
+    },
+    {
+        "id": "dessertCategoryId",
+        "name": "Dessert"
+    },
+    {
+        "id": "breakfastCategoryId",
+        "name": "Breakfast"
+    },
+    {
+        "id": "frenchCategoryId",
+        "name": "French"
+    },
+    {
+        "id": "indianCategoryId",
+        "name": "Indian"
+    },
+    {
+        "id": "greekCategoryId",
+        "name": "Greek"
+    },
+    {
+        "id": "saladCategoryId",
+        "name": "Salad"
+    },
+    {
+        "id": "seafoodCategoryId",
+        "name": "Seafood"
+    },
+    {
+        "id": "curryCategoryId",
+        "name": "Curry"
+    },
+    {
+        "id": "sideDishCategoryId",
+        "name": "Side Dish"
+    },
+    {
+        "id": "pastaCategoryId",
+        "name": "Pasta"
+    },
+    {
+        "id": "soupCategoryId",
+        "name": "Chili"
+    },
+    {
+        "id": "vegetarianCategoryId",
+        "name": "Vegetarian"
+    },
+    {
+        "id": "grillingCategoryId",
+        "name": "Grilling"
+    },
+    {
+        "id": "pizzaCategoryId",
+        "name": "Pizza"
+    },
+    {
+        "id": "chickenCategoryId",
+        "name": "Chicken"
+    },
+    {
+        "id": "mexicanCategoryId",
+        "name": "Mexican"
+    },
+    {
+        "id": "tacosCategoryId",
+        "name": "Tacos"
+    },
+    {
+        "id": "bakedCategoryId",
+        "name": "Baked"
+    },
+    {
+        "id": "risottoCategoryId",
+        "name": "Risotto"
+    },
+    {
+        "id": "pancakesCategoryId",
+        "name": "Pancakes"
+    },
+    {
+        "id": "vegetablesCategoryId",
+        "name": "Vegetables"
+    }
+]
