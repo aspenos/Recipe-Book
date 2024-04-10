@@ -7,7 +7,7 @@ const recipeSchema = new Schema({
         type: String, 
         required: true
     },
-    desecription: {
+    description: {
         type: String,
         required: true
     },
