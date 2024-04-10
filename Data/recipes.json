@@ -10,8 +10,8 @@
             "Serve hot with a garnish of fresh herbs."
         ],
         "ingredients": ["Leeks", "Potatoes", "Butter", "Vegetable Broth", "Seasonings", "Fresh Herbs"],
-        "categories": ["soupCategoryId", "comfortFoodCategoryId"],
-        "allergens": ["dairyAllergenId"],
+        "categories": ["Soup", "Comfort Food"],
+        "allergens": ["Dairy"],
         "creator": "LeekEnjoyer09",
         "image": "https://example.com/images/creamy-leek-potato-soup.jpg"
 },
@@ -24,8 +24,8 @@
             "Simmer with tomato sauce and spices."
         ],
         "ingredients": ["Spaghetti", "Ground Beef", "Tomato Sauce"],
-        "categories": ["italianCategoryId"],
-        "allergens": ["glutenAllergenId"],
+        "categories": ["Italian"],
+        "allergens": ["Gluten"],
         "creator": "MammaMia30",
         "image": "https://example.com/images/spaghetti-bolognese.jpg"
 },
@@ -37,8 +37,8 @@
             "Stir-fry in a pan with oil and soy sauce."
         ],
         "ingredients": ["Bell Peppers", "Broccoli", "Carrots", "Soy Sauce"],
-        "categories": ["chineseCategoryId", "veganCategoryId"],
-        "allergens": ["soyAllergenId"],
+        "categories": ["Chinese", "Vegan"],
+        "allergens": ["Soy"],
         "creator": "LeekDude",
         "image": "https://example.com/images/vegetable-stirfry.jpg"
 },
@@ -51,8 +51,8 @@
             "Heat and serve with a dollop of sour cream and fresh herbs."
         ],
         "ingredients": ["Pumpkin", "Vegetable Stock", "Cream"],
-        "categories": ["soupCategoryId"],
-        "allergens": ["dairyAllergenId"],
+        "categories": ["Soup"],
+        "allergens": ["Dairy"],
         "creator": "GordanRamsay",
         "image": "https://example.com/images/pumpkin-soup.jpg"
 },
@@ -65,8 +65,8 @@
             "Stir in sour cream and heat through without boiling."
         ],
         "ingredients": ["Beef", "Onions", "Mushrooms", "Sour Cream"],
-        "categories": ["russianCategoryId"],
-        "allergens": ["dairyAllergenId"],
+        "categories": ["Russian"],
+        "allergens": ["Dairy"],
         "creator": "GordanRamsay",
         "image": "https://example.com/images/beef-stroganoff.jpg"
 },
@@ -79,7 +79,7 @@
             "Let rest before serving to retain the juices."
         ],
         "ingredients": ["Chicken", "Lemon", "Garlic", "Salt", "Pepper"],
-        "categories": ["americanCategoryId"],
+        "categories": ["American"],
         "allergens": [],
         "creator": "AnimeLover",
         "image": "https://example.com/images/lemon-garlic-chicken.jpg"
@@ -93,7 +93,7 @@
             "Top with a drizzle of coconut cream."
         ],
         "ingredients": ["Sticky Rice", "Mango", "Coconut Milk", "Sugar"],
-        "categories": ["thaiCategoryId", "dessertCategoryId"],
+        "categories": ["Thai", "Dessert"],
         "allergens": [],
         "creator": "LeekEnjoyer09",
         "image": "https://example.com/images/mango-sticky-rice.jpg"
@@ -107,8 +107,8 @@
             "Poach an egg and place it on top of the avocado spread."
         ],
         "ingredients": ["Bread", "Avocado", "Egg", "Lime Juice", "Salt", "Pepper"],
-        "categories": ["breakfastCategoryId"],
-        "allergens": ["eggAllergenId", "glutenAllergenId"],
+        "categories": ["Breakfast"],
+        "allergens": ["Egg", "Gluten"],
         "creator": "AnimeLover",
         "image": "https://example.com/images/avocado-toast.jpg"
 },
@@ -121,8 +121,8 @@
             "Drop spoonfuls of dough onto a baking sheet and bake until golden."
         ],
         "ingredients": ["Butter", "Sugar", "Brown Sugar", "Eggs", "Vanilla Extract", "Flour", "Chocolate Chips"],
-        "categories": ["dessertCategoryId"],
-        "allergens": ["glutenAllergenId", "eggAllergenId", "dairyAllergenId"],
+        "categories": ["Dessert"],
+        "allergens": ["Gluten", "Egg", "Dairy"],
         "creator": "LeekEnjoyer09",
         "image": "https://example.com/images/chocolate-chip-cookies.jpg"
 },
@@ -136,8 +136,8 @@
             "Bake until the filling is set and golden."
         ],
         "ingredients": ["Pastry Crust", "Bacon", "Cheese", "Eggs", "Cream"],
-        "categories": ["frenchCategoryId", "breakfastCategoryId"],
-        "allergens": ["glutenAllergenId", "dairyAllergenId", "eggAllergenId"],
+        "categories": ["French", "Breakfast"],
+        "allergens": ["Gluten", "Dairy", "Egg"],
         "creator": "AnimeLover",
         "image": "https://example.com/images/quiche-lorraine.jpg"
 },
@@ -150,8 +150,8 @@
             "Simmer until the sauce thickens and the flavors meld."
         ],
         "ingredients": ["Chicken", "Yogurt", "Spices", "Tomato", "Butter", "Cream"],
-        "categories": ["indianCategoryId"],
-        "allergens": ["dairyAllergenId"],
+        "categories": ["Indian"],
+        "allergens": ["Dairy"],
         "creator": "LeekEnjoyer09",
         "image": "https://example.com/images/butter-chicken.jpg"
 },
@@ -164,8 +164,8 @@
             "Dress with olive oil, lemon juice, salt, and oregano."
         ],
         "ingredients": ["Tomatoes", "Cucumber", "Red Onion", "Olives", "Feta Cheese", "Olive Oil", "Lemon Juice", "Oregano"],
-        "categories": ["greekCategoryId", "saladCategoryId"],
-        "allergens": ["dairyAllergenId"],
+        "categories": ["Greek", "Salad"],
+        "allergens": ["Dairy"],
         "creator": "LeekEnjoyer09",
         "image": "https://example.com/images/greek-salad.jpg"
 },
@@ -178,8 +178,8 @@
             "Serve with bean sprouts, peanuts, and lime wedges."
         ],
         "ingredients": ["Rice Noodles", "Eggs", "Tofu", "Tamarind Paste", "Fish Sauce", "Sugar", "Chili Powder", "Bean Sprouts", "Peanuts", "Lime"],
-        "categories": ["thaiCategoryId"],
-        "allergens": ["nutAllergenId", "eggAllergenId", "fishAllergenId"],
+        "categories": ["Thai"],
+        "allergens": ["Nuts", "Egg", "Fish"],
         "creator": "ObnoxiousVegan123",
         "image": "https://example.com/images/pad-thai.jpg"
 },
@@ -192,8 +192,8 @@
             "Bake until crust is golden and crisp."
         ],
         "ingredients": ["Onions", "Pastry Crust", "Butter", "Thyme"],
-        "categories": ["frenchCategoryId"],
-        "allergens": ["glutenAllergenId", "dairyAllergenId"],
+        "categories": ["French"],
+        "allergens": ["Gluten", "Dairy"],
         "creator": "MammaMia30",
         "image": "https://example.com/images/onion-tart.jpg"
 },
@@ -206,8 +206,8 @@
             "Simmer until sauce thickens."
         ],
         "ingredients": ["Shrimp", "Coconut Milk", "Curry Paste"],
-        "categories": ["seafoodCategoryId", "curryCategoryId"],
-        "allergens": ["shellfishAllergenId"],
+        "categories": ["Seafood", "Curry"],
+        "allergens": ["Shellfish"],
         "creator": "MammaMia30",
         "image": "https://example.com/images/coconut-curry-shrimp.jpg"
 },
@@ -220,7 +220,7 @@
             "Mix with cooked bacon pieces before serving."
         ],
         "ingredients": ["Brussels Sprouts", "Olive Oil", "Salt", "Bacon"],
-        "categories": ["americanCategoryId", "sideDishCategoryId"],
+        "categories": ["American", "Side Dish"],
         "allergens": [],
         "creator": "MammaMia30",
         "image": "https://example.com/images/brussels-sprouts-bacon.jpg"
@@ -234,8 +234,8 @@
             "Bake until the topping is golden and the peaches are bubbly."
         ],
         "ingredients": ["Peaches", "Flour", "Sugar", "Butter"],
-        "categories": ["dessertCategoryId"],
-        "allergens": ["glutenAllergenId", "dairyAllergenId"],
+        "categories": ["Dessert"],
+        "allergens": ["Gluten", "Dairy"],
         "creator": "ObnoxiousVegan123",
         "image": "https://example.com/images/peach-cobbler.jpg"
 },
@@ -249,8 +249,8 @@
         "Serve hot with grated Parmesan cheese."
     ],
     "ingredients": ["Fettuccine Pasta", "Chicken Breasts", "Alfredo Sauce", "Parmesan Cheese"],
-    "categories": ["italianCategoryId", "pastaCategoryId"],
-    "allergens": ["dairyAllergenId"],
+    "categories": ["Italian", "Pasta"],
+    "allergens": ["Dairy"],
     "creator": "ChefGusto",
     "image": "https://example.com/images/chicken-alfredo.jpg"
 },
@@ -264,7 +264,7 @@
         "Simmer for 30 minutes until flavors meld together."
     ],
     "ingredients": ["Onions", "Bell Peppers", "Garlic", "Canned Tomatoes", "Kidney Beans", "Black Beans", "Corn", "Chili Powder", "Cumin", "Paprika"],
-    "categories": ["chiliCategoryId", "vegetarianCategoryId"],
+    "categories": ["Chili", "Vegetarian"],
     "allergens": [],
     "creator": "VeggieEater21",
     "image": "https://example.com/images/vegetarian-chili.jpg"
@@ -279,8 +279,8 @@
         "Serve grilled salmon drizzled with lemon butter sauce."
     ],
     "ingredients": ["Salmon Fillets", "Salt", "Pepper", "Lemon Zest", "Butter", "Lemon Juice", "Fresh Herbs"],
-    "categories": ["seafoodCategoryId", "grillingCategoryId"],
-    "allergens": ["fishAllergenId"],
+    "categories": ["Seafood", "Grilling"],
+    "allergens": ["Fish"],
     "creator": "Fishman38",
     "image": "https://example.com/images/grilled-salmon.jpg"
 },
@@ -296,8 +296,8 @@
         "Drizzle with olive oil before serving."
     ],
     "ingredients": ["Pizza Dough", "Tomato Sauce", "Fresh Basil", "Mozzarella Cheese", "Olive Oil"],
-    "categories": ["italianCategoryId", "pizzaCategoryId"],
-    "allergens": ["dairyAllergenId", "glutenAllergenId"],
+    "categories": ["Italian", "Pizza"],
+    "allergens": ["Dairy", "Gluten"],
     "creator": "NomNomNom123",
     "image": "https://example.com/images/margherita-pizza.jpg"
 },
@@ -311,8 +311,8 @@
         "Serve chilled as a refreshing salad."
     ],
     "ingredients": ["Chicken Breast", "Romaine Lettuce", "Caesar Dressing", "Croutons", "Parmesan Cheese"],
-    "categories": ["saladCategoryId", "chickenCategoryId"],
-    "allergens": ["dairyAllergenId", "glutenAllergenId"],
+    "categories": ["Salad", "Chicken"],
+    "allergens": ["Dairy", "Gluten"],
     "creator": "Saladad",
     "image": "https://example.com/images/chicken-caesar-salad.jpg"
 },
@@ -326,8 +326,8 @@
         "Fold tortillas and serve hot with additional toppings."
     ],
     "ingredients": ["Ground Beef", "Taco Seasoning", "Corn Tortillas", "Lettuce", "Cheese", "Salsa"],
-    "categories": ["mexicanCategoryId", "tacosCategoryId"],
-    "allergens": ["dairyAllergenId", "glutenAllergenId"],
+    "categories": ["Mexican", "Tacos"],
+    "allergens": ["Dairy", "Gluten"],
     "creator": "ChefGusto",
     "image": "https://example.com/images/beef-tacos.jpg"
 },
@@ -342,8 +342,8 @@
         "Serve hot with a side of roasted vegetables."
     ],
     "ingredients": ["Chicken Breasts", "Spinach", "Feta Cheese", "Garlic", "Herbs", "Salt", "Pepper"],
-    "categories": ["chickenCategoryId", "bakedCategoryId"],
-    "allergens": ["dairyAllergenId"],
+    "categories": ["Chicken", "Baked"],
+    "allergens": ["Dairy"],
     "creator": "Fishman38",
     "image": "https://example.com/images/spinach-feta-chicken.jpg"
 },
@@ -358,8 +358,8 @@
         "Serve hot as a comforting and flavorful dish."
     ],
     "ingredients": ["Arborio Rice", "Mushrooms", "Onions", "Butter", "Chicken Broth", "Vegetable Broth", "Parmesan Cheese", "Herbs"],
-    "categories": ["italianCategoryId", "risottoCategoryId"],
-    "allergens": ["dairyAllergenId"],
+    "categories": ["Italian", "Risotto"],
+    "allergens": ["Dairy"],
     "creator": "MarxFan30",
     "image": "https://example.com/images/mushroom-risotto.jpg"
 },
@@ -374,7 +374,7 @@
         "Serve hot over steamed rice or with naan bread."
     ],
     "ingredients": ["Onions", "Garlic", "Ginger", "Mixed Vegetables", "Curry Powder", "Turmeric", "Coconut Milk"],
-    "categories": ["curryCategoryId", "vegetarianCategoryId"],
+    "categories": ["Curry", "Vegetarian"],
     "allergens": [],
     "creator": "ObnoxiousVegan123",
     "image": "https://example.com/images/vegetable-curry.jpg"
@@ -389,8 +389,8 @@
         "Serve warm with maple syrup and extra blueberries."
     ],
     "ingredients": ["Flour", "Sugar", "Baking Powder", "Salt", "Eggs", "Milk", "Butter", "Lemon Zest", "Blueberries", "Maple Syrup"],
-    "categories": ["breakfastCategoryId", "pancakesCategoryId"],
-    "allergens": ["dairyAllergenId", "glutenAllergenId"],
+    "categories": ["Breakfast", "Pancakes"],
+    "allergens": ["Dairy", "Gluten"],
     "creator": "PancakeBro",
     "image": "https://example.com/images/lemon-blueberry-pancakes.jpg"
 },
@@ -404,7 +404,7 @@
         "Serve as a flavorful side dish or appetizer."
     ],
     "ingredients": ["Leeks", "Olive Oil", "Lemon Juice", "Herbs"],
-    "categories": ["vegetablesCategoryId", "grillingCategoryId"],
+    "categories": ["Vegetables", "Grilling"],
     "allergens": [],
     "creator": "MrLeek420",
     "image": "https://example.com/images/grilled-leeks-lemon-vinaigrette.jpg"
@@ -419,8 +419,8 @@
         "Serve hot with a side of crusty bread."
     ],
     "ingredients": ["Shrimp", "Garlic", "Butter", "Salt", "Pepper", "Fresh Herbs", "Crusty Bread"],
-    "categories": ["seafoodCategoryId"],
-    "allergens": ["shellfishAllergenId", "dairyAllergenId"],
+    "categories": ["Seafood"],
+    "allergens": ["Shellfish", "Dairy"],
     "creator": "NomNomNom123",
     "image": "https://example.com/images/garlic-butter-shrimp.jpg"
 },
@@ -433,8 +433,8 @@
         "Drizzle with balsamic glaze and a sprinkle of salt and pepper."
     ],
     "ingredients": ["Tomatoes", "Mozzarella Cheese", "Basil", "Balsamic Glaze", "Salt", "Pepper"],
-    "categories": ["saladCategoryId", "italianCategoryId"],
-    "allergens": ["dairyAllergenId"],
+    "categories": ["Salad", "Italian"],
+    "allergens": ["Dairy"],
     "creator": "Saladad",
     "image": "https://example.com/images/caprese-salad.jpg"
 }

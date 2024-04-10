@@ -14,13 +14,13 @@
   {
     "name": "Seasonings",
     "calorieUnitG": 8,
-    "category": ["herbsandSpicesId"],
+    "category": ["herbsAndSpicesId"],
     "allergens": []
   },
   {
     "name": "Herbs",
     "calorieUnitG": 6,
-    "category": ["herbsandSpicesId"],
+    "category": ["herbsAndSpicesId"],
     "allergens": []
   },
   {
@@ -116,13 +116,13 @@
   {
     "name": "Salt",
     "calorieUnitG": 12,
-    "category": ["herbsandSpicesId"],
+    "category": ["herbsAndSpicesId"],
     "allergens": []
   },
   {
     "name": "Pepper",
     "calorieUnitG": 14,
-    "category": ["herbsandSpicesId"],
+    "category": ["herbsAndSpicesId"],
     "allergens": []
   },
   {
@@ -146,7 +146,7 @@
   {
     "name": "Sugar",
     "calorieUnitG": 47,
-    "category": ["herbsandSpicesId"],
+    "category": ["herbsAndSpicesId"],
     "allergens": []
   },
   {
@@ -200,7 +200,7 @@
   {
     "name": "Spices",
     "calorieUnitG": 18,
-    "category": ["herbsandSpicesId"],
+    "category": ["herbsAndSpicesId"],
     "allergens": []
   },
   {
@@ -242,7 +242,7 @@
   {
     "name": "Oregano",
     "calorieUnitG": 23,
-    "category": ["herbsandSpicesId"],
+    "category": ["herbsAndSpicesId"],
     "allergens": []
   },
   {
@@ -266,7 +266,7 @@
   {
     "name": "Chili Powder",
     "calorieUnitG": 100,
-    "category": ["herbsandSpicesId"],
+    "category": ["herbsAndSpicesId"],
     "allergens": []
   },
   {
