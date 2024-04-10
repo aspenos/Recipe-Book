@@ -3,11 +3,13 @@ import dotenv from 'dotenv';
 import Allergen from './models/allergen.js';
 import Ingredient from './models/ingredient.js';
 import IngredientCategory from './models/ingredientCategory.js';
+import RecipeCategory from './models/recipeCategory.js';
 
 
 import allergens from './data/allergens.json' assert {type: 'json'};
 import ingredientCategories from './data/ingredientCategories.json' assert {type: 'json'};
 import ingredients from './data/ingredients.json' assert {type: 'json'};
+import recipeCategories from './data/recipeCategories.json' assert {type: 'json'};
 
 dotenv.config();
 
@@ -15,12 +17,14 @@ const seedDB = async () => {
     try {
         await mongoose.connect(process.env.MONGO_URI);
         console.log('MongoDB connected...');
-        
+
         await Allergen.deleteMany({});
         await IngredientCategory.deleteMany({});
+        await RecipeCategory.deleteMany({});
         await Ingredient.deleteMany({});
         await Allergen.insertMany(allergens);
         await IngredientCategory.insertMany(ingredientCategories);
+        await RecipeCategory.insertMany(recipeCategories);
 
         const dbIngredientCategories = await IngredientCategory.find();
 
