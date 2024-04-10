@@ -1,0 +1,21 @@
+{
+  "name": "recipe-book",
+  "version": "1.0.0",
+  "description": "Recipe Book: Recipe Book is a full-stack MEN (MongoDB, Express.js, Node.js) application that allows users to explore, create, edit, and delete recipes. Inspired by the love of cooking, Recipe Book offers an API-centric approach with a focus on backend development, making it a robust tool for users who want to maintain a digital collection of their favorite recipes. Users can read, create, update, delete, and manage favorite recipes within the app. Users can view a comprehensive list of recipes or get detailed information about a single recipe. The app Allows the addition of new recipes to the database with complete details. Existing recipes can be completely or partially updated to refine the cooking instructions or ingredients. Users can also remove recipes from their collection. Finally, Users can add recipes to or remove them from their favorites list.",
+  "main": "seed.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.1"
+  }
+}
