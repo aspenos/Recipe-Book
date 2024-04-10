@@ -15,6 +15,7 @@ const seedDB = async () => {
     try {
         await mongoose.connect(process.env.MONGO_URI);
         console.log('MongoDB connected...');
+        
         await Allergen.deleteMany({});
         await IngredientCategory.deleteMany({});
         await Ingredient.deleteMany({});
@@ -22,7 +23,7 @@ const seedDB = async () => {
         await IngredientCategory.insertMany(ingredientCategories);
 
         const dbIngredientCategories = await IngredientCategory.find();
-        
+
         const dbAllergens = await Allergen.find();
 
         let categoryMap = {};
@@ -30,6 +31,17 @@ const seedDB = async () => {
 
         let allergenMap = {};
         dbAllergens.forEach(all => allergenMap[all.name] = all._id);
+
+        const updatedIngredients = ingredients.map(ingredient => {
+            return {
+                ...ingredient,
+                category: ingredient.category.map(name => categoryMap[name]),
+                allergens: ingredient.allergens.map(name => allergenMap[name])
+            };
+        });
+        
+        await Ingredient.insertMany(updatedIngredients);
+        console.log('Ingredients seeded successfully');
 
         console.log('Ingredient categories and allergens seeded successfully');
     } catch (err) {
