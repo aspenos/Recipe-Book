@@ -1,8 +1,8 @@
-const express = require('express');
+import express from 'express';
+import { createAllergen } from '../controllers/allergenController.js';
+
 const router = express.Router();
-const allergenController = require('../controllers/allergenController');
 
-// Route to add a new allergen
-router.post('/', allergenController.createAllergen);
+router.post('/', createAllergen);
 
-module.exports = router;
+export default router;

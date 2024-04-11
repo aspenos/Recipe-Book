@@ -1,21 +1,21 @@
 import express from 'express';
+import recipeRoutes from './routes/recipeRoutes.js';
+import ingredientRoutes from './routes/ingredientRoutes.js';
+import categoryRoutes from './routes/categoryRoutes.js';
+import allergenRoutes from './routes/allergenRoutes.js';
+import userRoutes from './routes/userRoutes.js';
 
-const server = express();
+const app = express();
+const PORT = process.env.PORT || 3000;
 
-//route stuff
+app.use(express.json()); 
 
-const recipeRoutes = require('./routes/recipeRoutes');
-const ingredientRoutes = require('./routes/ingredientRoutes');
-const categoryRoutes = require('./routes/categoryRoutes');
-const allergenRoutes = require('./routes/allergenRoutes');
+app.use('/recipes', recipeRoutes);
+app.use('/ingredients', ingredientRoutes);
+app.use('/categories', categoryRoutes);
+app.use('/allergens', allergenRoutes);
+app.use('/users', userRoutes);
 
-server.use('/recipes', recipeRoutes);
-server.use('/ingredients', ingredientRoutes);
-server.use('/categories', categoryRoutes);
-server.use('/allergens', allergenRoutes);
-
-
-server.listen(PORT, function() {
-    console.log(`Server running at PORT ${PORT}`);
+app.listen(PORT, () => {
+    console.log(`Server running at http://localhost:${PORT}`);
 });
-

@@ -1,11 +1,9 @@
-const express = require('express');
+import express from 'express';
+import { addRecipeToFavorites, removeRecipeFromFavorites } from '../controllers/userController.js';
+
 const router = express.Router();
-const userController = require('../controllers/userController');
 
-// Route to add a recipe to a user's favorites
-router.post('/users/:userId/favorites/:recipeId', userController.addFavorite);
+router.post('/users/:userId/favorites/:recipeId', addRecipeToFavorites);
+router.delete('/users/:userId/favorites/:recipeId', removeRecipeFromFavorites);
 
-// Route to delete a recipe from a user's favorites
-router.delete('/users/:userId/favorites/:recipeId', userController.removeFavorite);
-
-module.exports = router;
+export default router;
