@@ -1,8 +1,21 @@
 import express from 'express';
 
-const app = express();
+const server = express();
 
-app.listen(PORT, function() {
+//route stuff
+
+const recipeRoutes = require('./routes/recipeRoutes');
+const ingredientRoutes = require('./routes/ingredientRoutes');
+const categoryRoutes = require('./routes/categoryRoutes');
+const allergenRoutes = require('./routes/allergenRoutes');
+
+server.use('/recipes', recipeRoutes);
+server.use('/ingredients', ingredientRoutes);
+server.use('/categories', categoryRoutes);
+server.use('/allergens', allergenRoutes);
+
+
+server.listen(PORT, function() {
     console.log(`Server running at PORT ${PORT}`);
 });
 
