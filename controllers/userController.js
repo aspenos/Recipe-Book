@@ -1,4 +1,5 @@
 import User from '../models/user.js';
+import Recipe from '../models/recipe.js';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
@@ -12,9 +13,48 @@ const isPasswordStrong = (password) => {
     return password.length >= minLength && hasNumbers && hasUpper && hasLower && hasSpecial;
 };
 
-export const registerUser = async (req, res) => {
+export const getUserProfile = async (req, res) => {
     try {
-        const { username, email, password } = req.body;
+        const { userId } = req.params;
+        const user = await User.findById(userId);
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+        res.json(user);
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+};
+
+export const getUserRecipes = async (req, res) => {
+    try {
+        const { userId } = req.params;
+        const recipes = await Recipe.find({ creator: userId });
+        if (!recipes) {
+            return res.status(404).json({ message: 'No recipes found' });
+        }
+        res.json(recipes);
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+};
+
+export const getUserFavorites = async (req, res) => {
+    try {
+        const { userId } = req.params;
+        const user = await User.findById(userId).populate('favorites');
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+        res.json(user.favorites);
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+};
+
+export const registerUser = async (req, res) => {
+    const { username, email, password } = req.body;
+    try {
         if (!isPasswordStrong(password)) {
             return res.status(400).json({ message: 'Password does not meet the strength requirements.' });
         }
@@ -23,14 +63,12 @@ export const registerUser = async (req, res) => {
             return res.status(400).json({ message: 'User already exists' });
         }
         const hashedPassword = await bcrypt.hash(password, 10);
-        const user = new User({
+        const newUser = new User({
             username,
             email,
             password: hashedPassword
         });
-
-        await user.save();
-
+        await newUser.save();
         res.status(201).json({ message: 'User registered successfully' });
     } catch (error) {
         res.status(500).json({ message: error.message });
@@ -38,8 +76,8 @@ export const registerUser = async (req, res) => {
 };
 
 export const loginUser = async (req, res) => {
+    const { email, password } = req.body;
     try {
-        const { email, password } = req.body;
         const user = await User.findOne({ email });
         if (!user) {
             return res.status(401).json({ message: 'Invalid credentials' });

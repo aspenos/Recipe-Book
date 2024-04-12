@@ -1,7 +1,9 @@
 import express from 'express';
-import { createAllergen } from '../controllers/allergenController.js';
+import { createAllergen, listAllergens } from '../controllers/allergenController.js';
 
 const router = express.Router();
+
+router.get('/', listAllergens);
 
 router.post('/', createAllergen);
 
