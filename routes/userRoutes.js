@@ -1,9 +1,22 @@
 import express from 'express';
-import { addRecipeToFavorites, removeRecipeFromFavorites } from '../controllers/userController.js';
+import { getUserProfile, getUserRecipes, addRecipeToFavorites, removeRecipeFromFavorites, getAllUsers, getUserFavorites } from '../controllers/userController.js';
 
 const router = express.Router();
 
-router.post('/users/:userId/favorites/:recipeId', addRecipeToFavorites);
-router.delete('/users/:userId/favorites/:recipeId', removeRecipeFromFavorites);
+// Get all users
+router.get('/', getAllUsers);
+
+// Get a single user profile
+router.get('/:userId', getUserProfile);
+
+router.get('/:userId/recipes', getUserRecipes);
+
+router.get('/:userId/favorites', getUserFavorites);
+
+// Add a recipe to favorites
+router.post('/:userId/favorites/:recipeId', addRecipeToFavorites);
+
+// Remove a recipe from favorites
+router.delete('/:userId/favorites/:recipeId', removeRecipeFromFavorites);
 
 export default router;

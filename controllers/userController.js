@@ -13,6 +13,15 @@ const isPasswordStrong = (password) => {
     return password.length >= minLength && hasNumbers && hasUpper && hasLower && hasSpecial;
 };
 
+export const getAllUsers = async (req, res) => {
+    try {
+        const users = await User.find(); 
+        res.json(users); 
+    } catch (error) {
+        res.status(500).json({ message: error.message }); 
+    }
+};
+
 export const getUserProfile = async (req, res) => {
     try {
         const { userId } = req.params;
