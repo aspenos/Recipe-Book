@@ -41,16 +41,16 @@ const seedDB = async () => {
         const dbAllergens = await Allergen.find();
 
         let categoryMap = {};
-        dbIngredientCategories.forEach(cat => categoryMap[cat.name] = cat._id);
+        dbIngredientCategories.forEach(cat => categoryMap[cat.name] = cat._id.toString());
 
         let allergenMap = {};
-        dbAllergens.forEach(all => allergenMap[all.name] = all._id);
+        dbAllergens.forEach(all => allergenMap[all.name] = all._id.toString());
 
         // Seed Ingredients
         const updatedIngredients = ingredients.map(ingredient => ({
             ...ingredient,
-            category: ingredient.category.map(name => categoryMap[name]),
-            allergens: ingredient.allergens.map(name => allergenMap[name])
+            category: ingredient.category.map(name => categoryMap[name]), // Map names to ObjectIds
+            allergens: ingredient.allergens.map(name => allergenMap[name]) // Map names to ObjectIds
         }));
         await Ingredient.insertMany(updatedIngredients);
         console.log('Ingredients seeded successfully');

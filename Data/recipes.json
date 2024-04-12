@@ -9,7 +9,7 @@
             "Blend the soup until smooth and creamy.",
             "Serve hot with a garnish of fresh herbs."
         ],
-        "ingredients": ["Leeks", "Potatoes", "Butter", "Vegetable Broth", "Seasonings", "Fresh Herbs"],
+        "ingredients": ["Leeks", "Potatoes", "Butter", "Vegetable Broth", "Seasonings"],
         "categories": ["Soup", "Comfort Food"],
         "allergens": ["Dairy"],
         "creator": "LeekEnjoyer09",
@@ -64,7 +64,7 @@
             "Add mushrooms and cook until tender.",
             "Stir in sour cream and heat through without boiling."
         ],
-        "ingredients": ["Beef", "Onions", "Mushrooms", "Sour Cream"],
+        "ingredients": ["Ground Beef", "Onions", "Mushrooms"],
         "categories": ["Russian"],
         "allergens": ["Dairy"],
         "creator": "GordanRamsay",
@@ -120,7 +120,7 @@
             "Combine dry ingredients and mix into the butter mixture. Fold in chocolate chips.",
             "Drop spoonfuls of dough onto a baking sheet and bake until golden."
         ],
-        "ingredients": ["Butter", "Sugar", "Brown Sugar", "Eggs", "Vanilla Extract", "Flour", "Chocolate Chips"],
+        "ingredients": ["Butter", "Sugar", "Egg", "Flour"],
         "categories": ["Dessert"],
         "allergens": ["Gluten", "Egg", "Dairy"],
         "creator": "LeekEnjoyer09",
@@ -135,7 +135,7 @@
             "Pour a mixture of eggs, cream, salt, and pepper over the bacon and cheese.",
             "Bake until the filling is set and golden."
         ],
-        "ingredients": ["Pastry Crust", "Bacon", "Cheese", "Eggs", "Cream"],
+        "ingredients": ["Pastry Crust", "Bacon", "Cheese", "Egg", "Cream"],
         "categories": ["French", "Breakfast"],
         "allergens": ["Gluten", "Dairy", "Egg"],
         "creator": "AnimeLover",
@@ -163,7 +163,7 @@
             "Add olives and crumbled feta cheese.",
             "Dress with olive oil, lemon juice, salt, and oregano."
         ],
-        "ingredients": ["Tomatoes", "Cucumber", "Red Onion", "Olives", "Feta Cheese", "Olive Oil", "Lemon Juice", "Oregano"],
+        "ingredients": ["Tomato", "Cucumber", "Red Onion", "Olives", "Feta Cheese", "Olive Oil", "Oregano"],
         "categories": ["Greek", "Salad"],
         "allergens": ["Dairy"],
         "creator": "LeekEnjoyer09",
@@ -177,7 +177,7 @@
             "Stir-fry eggs, tofu, and noodles, then add tamarind sauce, fish sauce, sugar, and chili powder.",
             "Serve with bean sprouts, peanuts, and lime wedges."
         ],
-        "ingredients": ["Rice Noodles", "Eggs", "Tofu", "Tamarind Paste", "Fish Sauce", "Sugar", "Chili Powder", "Bean Sprouts", "Peanuts", "Lime"],
+        "ingredients": ["Rice Noodles", "Egg", "Tamarind Paste", "Fish Sauce", "Sugar", "Chili Powder", "Bean Sprouts", "Peanuts", "Lime"],
         "categories": ["Thai"],
         "allergens": ["Nuts", "Egg", "Fish"],
         "creator": "ObnoxiousVegan123",
@@ -205,7 +205,7 @@
             "Cook curry paste with coconut milk, then add shrimp back to the pan.",
             "Simmer until sauce thickens."
         ],
-        "ingredients": ["Shrimp", "Coconut Milk", "Curry Paste"],
+        "ingredients": ["Coconut Milk", "Curry Paste"],
         "categories": ["Seafood", "Curry"],
         "allergens": ["Shellfish"],
         "creator": "MammaMia30",
@@ -233,7 +233,7 @@
             "Top with a mixture of flour, sugar, and butter.",
             "Bake until the topping is golden and the peaches are bubbly."
         ],
-        "ingredients": ["Peaches", "Flour", "Sugar", "Butter"],
+        "ingredients": ["Peach", "Flour", "Sugar", "Butter"],
         "categories": ["Dessert"],
         "allergens": ["Gluten", "Dairy"],
         "creator": "ObnoxiousVegan123",
@@ -248,7 +248,7 @@
         "Combine pasta, grilled chicken, and Alfredo sauce.",
         "Serve hot with grated Parmesan cheese."
     ],
-    "ingredients": ["Fettuccine Pasta", "Chicken Breasts", "Alfredo Sauce", "Parmesan Cheese"],
+    "ingredients": ["Fettuccine Pasta", "Chicken Breast", "Alfredo Sauce", "Parmesan Cheese"],
     "categories": ["Italian", "Pasta"],
     "allergens": ["Dairy"],
     "creator": "ChefGusto",
@@ -263,7 +263,7 @@
         "Season with chili powder, cumin, and paprika.",
         "Simmer for 30 minutes until flavors meld together."
     ],
-    "ingredients": ["Onions", "Bell Peppers", "Garlic", "Canned Tomatoes", "Kidney Beans", "Black Beans", "Corn", "Chili Powder", "Cumin", "Paprika"],
+    "ingredients": ["Onions", "Bell Peppers", "Garlic", "Kidney Beans", "Black Beans", "Corn", "Chili Powder"],
     "categories": ["Chili", "Vegetarian"],
     "allergens": [],
     "creator": "VeggieEater21",
@@ -278,7 +278,7 @@
         "Prepare a sauce with butter, lemon juice, and fresh herbs.",
         "Serve grilled salmon drizzled with lemon butter sauce."
     ],
-    "ingredients": ["Salmon Fillets", "Salt", "Pepper", "Lemon Zest", "Butter", "Lemon Juice", "Fresh Herbs"],
+    "ingredients": ["Salmon Fillet", "Salt", "Pepper", "Lemon Zest", "Butter", "Herbs"],
     "categories": ["Seafood", "Grilling"],
     "allergens": ["Fish"],
     "creator": "Fishman38",
@@ -295,7 +295,7 @@
         "Bake for 10-12 minutes until crust is golden and cheese melts.",
         "Drizzle with olive oil before serving."
     ],
-    "ingredients": ["Pizza Dough", "Tomato Sauce", "Fresh Basil", "Mozzarella Cheese", "Olive Oil"],
+    "ingredients": ["Pizza Dough", "Tomato Sauce", "Fresh Basil", "Olive Oil"],
     "categories": ["Italian", "Pizza"],
     "allergens": ["Dairy", "Gluten"],
     "creator": "NomNomNom123",
@@ -310,7 +310,7 @@
         "Top with grilled chicken, croutons, and grated Parmesan cheese.",
         "Serve chilled as a refreshing salad."
     ],
-    "ingredients": ["Chicken Breast", "Romaine Lettuce", "Caesar Dressing", "Croutons", "Parmesan Cheese"],
+    "ingredients": ["Chicken Breast", "Romain Lettuce", "Caesar Dressing", "Croutons", "Parmesan Cheese"],
     "categories": ["Salad", "Chicken"],
     "allergens": ["Dairy", "Gluten"],
     "creator": "Saladad",
@@ -325,7 +325,7 @@
         "Fill tortillas with beef, shredded lettuce, grated cheese, and salsa.",
         "Fold tortillas and serve hot with additional toppings."
     ],
-    "ingredients": ["Ground Beef", "Taco Seasoning", "Corn Tortillas", "Lettuce", "Cheese", "Salsa"],
+    "ingredients": ["Ground Beef", "Taco Seasoning", "Corn Tortillas", "Cheese", "Salsa"],
     "categories": ["Mexican", "Tacos"],
     "allergens": ["Dairy", "Gluten"],
     "creator": "ChefGusto",
@@ -341,7 +341,7 @@
         "Bake in the oven until chicken is cooked through.",
         "Serve hot with a side of roasted vegetables."
     ],
-    "ingredients": ["Chicken Breasts", "Spinach", "Feta Cheese", "Garlic", "Herbs", "Salt", "Pepper"],
+    "ingredients": ["Chicken Breast", "Spinach", "Feta Cheese", "Garlic", "Herbs", "Salt", "Pepper"],
     "categories": ["Chicken", "Baked"],
     "allergens": ["Dairy"],
     "creator": "Fishman38",
@@ -373,7 +373,7 @@
         "Simmer until vegetables are tender and sauce is thickened.",
         "Serve hot over steamed rice or with naan bread."
     ],
-    "ingredients": ["Onions", "Garlic", "Ginger", "Mixed Vegetables", "Curry Powder", "Turmeric", "Coconut Milk"],
+    "ingredients": ["Onions", "Garlic", "Ginger", "Curry Powder", "Coconut Milk"],
     "categories": ["Curry", "Vegetarian"],
     "allergens": [],
     "creator": "ObnoxiousVegan123",
@@ -388,7 +388,7 @@
         "Pour batter onto a hot griddle and cook until golden brown.",
         "Serve warm with maple syrup and extra blueberries."
     ],
-    "ingredients": ["Flour", "Sugar", "Baking Powder", "Salt", "Eggs", "Milk", "Butter", "Lemon Zest", "Blueberries", "Maple Syrup"],
+    "ingredients": ["Flour", "Sugar", "Baking Powder", "Salt", "Egg", "Milk", "Butter", "Lemon Zest", "Blueberries", "Maple Syrup"],
     "categories": ["Breakfast", "Pancakes"],
     "allergens": ["Dairy", "Gluten"],
     "creator": "PancakeBro",
@@ -403,7 +403,7 @@
         "Drizzle the grilled leeks with the lemon vinaigrette.",
         "Serve as a flavorful side dish or appetizer."
     ],
-    "ingredients": ["Leeks", "Olive Oil", "Lemon Juice", "Herbs"],
+    "ingredients": ["Leeks", "Olive Oil", "Herbs"],
     "categories": ["Vegetables", "Grilling"],
     "allergens": [],
     "creator": "MrLeek420",
@@ -418,7 +418,7 @@
         "Season with salt, pepper, and fresh herbs.",
         "Serve hot with a side of crusty bread."
     ],
-    "ingredients": ["Shrimp", "Garlic", "Butter", "Salt", "Pepper", "Fresh Herbs", "Crusty Bread"],
+    "ingredients": ["Garlic", "Butter", "Salt", "Pepper", "Herbs", "Crusty Bread"],
     "categories": ["Seafood"],
     "allergens": ["Shellfish", "Dairy"],
     "creator": "NomNomNom123",
@@ -432,7 +432,7 @@
         "Arrange them on a plate with fresh basil leaves.",
         "Drizzle with balsamic glaze and a sprinkle of salt and pepper."
     ],
-    "ingredients": ["Tomatoes", "Mozzarella Cheese", "Basil", "Balsamic Glaze", "Salt", "Pepper"],
+    "ingredients": ["Tomato", "Balsamic Glaze", "Salt", "Pepper"],
     "categories": ["Salad", "Italian"],
     "allergens": ["Dairy"],
     "creator": "Saladad",
