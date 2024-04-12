@@ -70,6 +70,9 @@ const seedDB = async () => {
         dbUsers.forEach(user => userMap[user.username] = user._id);
 
         const dbIngredients = await Ingredient.find();
+        const dbRecipeCategories = await RecipeCategory.find();
+        let recipeCategoryMap = {};
+        dbRecipeCategories.forEach(cat => recipeCategoryMap[cat.name] = cat._id.toString());
 
         // Seed Recipes
         const updatedRecipes = recipes.map(recipe => ({
@@ -78,8 +81,8 @@ const seedDB = async () => {
                 const ingredient = dbIngredients.find(ing => ing.name === ingName);
                 return ingredient ? ingredient._id : null;
             }),
-            categories: recipe.categories.map(catName => categoryMap[catName]),
-            allergens: recipe.allergens.map(allName => allergenMap[allName]),
+            categories: recipe.categories.map(catName => recipeCategoryMap[catName] || null), // Map category names to ObjectIds
+            allergens: recipe.allergens.map(allName => allergenMap[allName] || null),
             creator: userMap[recipe.creator]
         }));
         await Recipe.insertMany(updatedRecipes);
