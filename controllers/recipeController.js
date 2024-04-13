@@ -2,12 +2,19 @@ import Recipe from '../models/recipe.js';
 
 export const listAllRecipes = async (req, res) => {
     try {
-        const recipes = await Recipe.find().populate('ingredients categories allergens creator');
+        const { recipeCategory } = req.query;
+        let query = {};
+        if (recipeCategory) {
+            query.categories = recipeCategory;
+        }
+        const recipes = await Recipe.find(query).populate('ingredients categories allergens creator');
         res.json(recipes);
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
 };
+
+
 
 export const getRecipeById = async (req, res) => {
     try {
@@ -66,3 +73,4 @@ export const deleteRecipe = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 };
+
