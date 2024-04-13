@@ -19,4 +19,8 @@ router.post('/:userId/favorites/:recipeId', addRecipeToFavorites);
 // Remove a recipe from favorites
 router.delete('/:userId/favorites/:recipeId', removeRecipeFromFavorites);
 
+router.post('/login', loginUser);
+
+router.post('/signup', registerUser);
+
 export default router;
