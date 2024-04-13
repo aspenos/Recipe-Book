@@ -13,7 +13,7 @@
         "categories": ["Soup", "Comfort Food"],
         "allergens": ["Dairy"],
         "creator": "LeekEnjoyer09",
-        "image": "https://i.imgur.com/lTqeyTn.jpeg"
+        "image": "https://i.postimg.cc/GtNbMs18/Creamy-Leek-and-Potato-Soup.png"
 },
 {
         "name": "Spaghetti Bolognese",
@@ -27,7 +27,7 @@
         "categories": ["Italian"],
         "allergens": ["Gluten"],
         "creator": "MammaMia30",
-        "image": "https://i.imgur.com/NZwfUD4.jpeg"
+        "image": "https://i.postimg.cc/k59qhmLc/Spaghetti-Bolognese.jpg"
 },
 {
         "name": "Vegetable Stir-Fry",
@@ -40,7 +40,7 @@
         "categories": ["Chinese", "Vegan"],
         "allergens": ["Soy"],
         "creator": "LeekDude",
-        "image": "https://i.imgur.com/dFNjwB7.jpeg"
+        "image": "https://i.postimg.cc/7hCkTYTx/Vegetable-Stir-Fry.jpg"
 },
 {
         "name": "Pumpkin Soup",
@@ -54,7 +54,7 @@
         "categories": ["Soup"],
         "allergens": ["Dairy"],
         "creator": "GordanRamsay",
-        "image": "https://i.imgur.com/hlnmp4W.jpeg"
+        "image": "https://i.postimg.cc/Gh8L4zkk/Pumpkin-Soup.jpg"
 },
 {
         "name": "Beef Stroganoff",
@@ -68,7 +68,7 @@
         "categories": ["Russian"],
         "allergens": ["Dairy"],
         "creator": "GordanRamsay",
-        "image": "https://i.imgur.com/u26xU4j.jpeg"
+        "image": "https://i.postimg.cc/MGyXvtJs/Beef-Stroganoff.jpg"
 },
 {
         "name": "Lemon Garlic Roasted Chicken",
@@ -82,7 +82,7 @@
         "categories": ["American"],
         "allergens": [],
         "creator": "AnimeLover",
-        "image": "https://i.imgur.com/6EVxm5x.jpeg"
+        "image": "https://i.postimg.cc/x8q0y3BV/Lemon-Garlic-Roasted-Chicken.jpg"
 },
 {
         "name": "Mango Sticky Rice",
@@ -96,7 +96,7 @@
         "categories": ["Thai", "Dessert"],
         "allergens": [],
         "creator": "LeekEnjoyer09",
-        "image": "https://i.imgur.com/zbrjjDY.jpeg"
+        "image": "https://i.postimg.cc/B6SZt0g6/Mango-Sticky-Rice.jpg"
 },
 {
         "name": "Avocado Toast with Poached Egg",
@@ -110,7 +110,7 @@
         "categories": ["Breakfast"],
         "allergens": ["Egg", "Gluten"],
         "creator": "AnimeLover",
-        "image": "https://i.imgur.com/N7wXsd5.jpeg"
+        "image": "https://i.postimg.cc/4xHYTsLR/Avocado-Toast-with-Poached-Egg.jpg"
 },
 {
         "name": "Chocolate Chip Cookies",
@@ -124,7 +124,7 @@
         "categories": ["Dessert"],
         "allergens": ["Gluten", "Egg", "Dairy"],
         "creator": "LeekEnjoyer09",
-        "image": "https://i.imgur.com/LAel4df.jpeg"
+        "image": "https://i.postimg.cc/zvPG9cTf/Chocolate-Chip-Cookies.jpg"
 },
 {
         "name": "Quiche Lorraine",
@@ -139,7 +139,7 @@
         "categories": ["French", "Breakfast"],
         "allergens": ["Gluten", "Dairy", "Egg"],
         "creator": "AnimeLover",
-        "image": "https://i.imgur.com/QzXshQO.jpeg"
+        "image": "https://i.postimg.cc/pTLxRBW5/Quiche-Lorraine.jpg"
 },
 {
         "name": "Butter Chicken",
@@ -153,7 +153,7 @@
         "categories": ["Indian"],
         "allergens": ["Dairy"],
         "creator": "LeekEnjoyer09",
-        "image": "https://i.imgur.com/0Sw9PeG.png"
+        "image": "https://i.postimg.cc/v8S88C6Y/Butter-Chicken.png"
 },
 {
         "name": "Greek Salad",
@@ -167,7 +167,7 @@
         "categories": ["Greek", "Salad"],
         "allergens": ["Dairy"],
         "creator": "LeekEnjoyer09",
-        "image": "https://i.imgur.com/xD4tmyD.jpeg"
+        "image": "https://i.postimg.cc/zGhGcpvJ/Greek-Salad.jpg"
 },
 {
         "name": "Pad Thai",
@@ -181,7 +181,7 @@
         "categories": ["Thai"],
         "allergens": ["Nuts", "Egg", "Fish"],
         "creator": "ObnoxiousVegan123",
-        "image": "https://i.imgur.com/myIOBQR.png"
+        "image": "https://i.postimg.cc/Bnf0X3Z0/Pad-Thai.png"
 },
 {
         "name": "Caramelized Onion Tart",
@@ -195,7 +195,7 @@
         "categories": ["French"],
         "allergens": ["Gluten", "Dairy"],
         "creator": "MammaMia30",
-        "image": "https://i.imgur.com/4arPK4C.jpeg"
+        "image": "https://i.postimg.cc/wvgMJJ69/Caramelized-Onion-Tart.jpg"
 },
 {
         "name": "Coconut Curry Shrimp",
@@ -209,7 +209,7 @@
         "categories": ["Seafood", "Curry"],
         "allergens": ["Shellfish"],
         "creator": "MammaMia30",
-        "image": "https://i.imgur.com/bpmPq0W.jpeg"
+        "image": "https://i.postimg.cc/VNBLY6Xp/Coconut-Curry-Shrimp.jpg"
 },
 {
         "name": "Roasted Brussels Sprouts with Bacon",
@@ -223,7 +223,7 @@
         "categories": ["American", "Side Dish"],
         "allergens": [],
         "creator": "MammaMia30",
-        "image": "https://i.imgur.com/xO65DO8.jpeg"
+        "image": "https://i.postimg.cc/mDp4DFkX/Roasted-Brussels-Sprouts-with-Bacon.jpg"
 },
 {
         "name": "Peach Cobbler",
@@ -237,7 +237,7 @@
         "categories": ["Dessert"],
         "allergens": ["Gluten", "Dairy"],
         "creator": "ObnoxiousVegan123",
-        "image": "https://i.imgur.com/7j9lh5x.jpeg"
+        "image": "https://i.postimg.cc/RVkMKfR2/Peach-Cobbler.jpg"
 },
 {
     "name": "Chicken Alfredo",
@@ -252,7 +252,7 @@
     "categories": ["Italian", "Pasta"],
     "allergens": ["Dairy"],
     "creator": "ChefGusto",
-    "image": "https://i.imgur.com/XIGZ1Pn.png"
+    "image": "https://i.postimg.cc/yYkdF7z3/Chicken-Alfredo.png"
 },
 {
     "name": "Vegetarian Chili",
@@ -267,7 +267,7 @@
     "categories": ["Chili", "Vegetarian"],
     "allergens": [],
     "creator": "VeggieEater21",
-    "image": "https://i.imgur.com/cnTTKT5.jpeg"
+    "image": "https://i.postimg.cc/7PcDr7pb/Vegetarian-Chili.jpg"
 },
 {
     "name": "Grilled Salmon with Lemon Butter Sauce",
@@ -282,7 +282,7 @@
     "categories": ["Seafood", "Grilling"],
     "allergens": ["Fish"],
     "creator": "Fishman38",
-    "image": "https://i.imgur.com/v0sdfHI.jpeg"
+    "image": "https://i.postimg.cc/s2RgdSG5/Grilled-Salmon-with-Lemon-Butter-Sauce.jpg"
 },
 {
     "name": "Margherita Pizza",
@@ -299,7 +299,7 @@
     "categories": ["Italian", "Pizza"],
     "allergens": ["Dairy", "Gluten"],
     "creator": "NomNomNom123",
-    "image": "https://i.imgur.com/qkiCEdc.png"
+    "image": "https://i.postimg.cc/BbdG59x2/Margherita-Pizza.png"
 },
 {
     "name": "Chicken Caesar Salad",
@@ -314,7 +314,7 @@
     "categories": ["Salad", "Chicken"],
     "allergens": ["Dairy", "Gluten"],
     "creator": "Saladad",
-    "image": "https://i.imgur.com/ulzXQTL.jpeg"
+    "image": "https://i.postimg.cc/rsppZk0b/Chicken-Caesar-Salad.jpg"
 },
 {
     "name": "Beef Tacos",
@@ -329,7 +329,7 @@
     "categories": ["Mexican", "Tacos"],
     "allergens": ["Dairy", "Gluten"],
     "creator": "ChefGusto",
-    "image": "https://i.imgur.com/hWYdG1C.jpeg"
+    "image": "https://i.postimg.cc/jjVLxmmw/Beef-Tacos.jpg"
 },
 {
     "name": "Spinach and Feta Stuffed Chicken Breast",
@@ -345,7 +345,7 @@
     "categories": ["Chicken", "Baked"],
     "allergens": ["Dairy"],
     "creator": "Fishman38",
-    "image": "https://i.imgur.com/sgEt01Z.jpeg"
+    "image": "https://i.postimg.cc/jjXKp1br/Spinach-and-Feta-Stuffed-Chicken-Breast.jpg"
 },
 {
     "name": "Mushroom Risotto",
@@ -361,7 +361,7 @@
     "categories": ["Italian", "Risotto"],
     "allergens": ["Dairy"],
     "creator": "MarxFan30",
-    "image": "https://i.imgur.com/DwxtxWt.jpeg"
+    "image": "https://i.postimg.cc/7ZSqV6th/Mushroom-Risotto.jpg"
 },
 {
     "name": "Vegetable Curry",
@@ -377,7 +377,7 @@
     "categories": ["Curry", "Vegetarian"],
     "allergens": [],
     "creator": "ObnoxiousVegan123",
-    "image": "https://i.imgur.com/NMY9ogp.png"
+    "image": "https://i.postimg.cc/WbkVNzv8/Vegetable-Curry.png"
 },
 {
     "name": "Lemon Blueberry Pancakes",
@@ -392,7 +392,7 @@
     "categories": ["Breakfast", "Pancakes"],
     "allergens": ["Dairy", "Gluten"],
     "creator": "PancakeBro",
-    "image": "https://i.imgur.com/eMDQVP3.jpeg"
+    "image": "https://i.postimg.cc/Qtf8Ty4q/Lemon-Blueberry-Pancakes.jpg"
 },
 {
     "name": "Grilled Leeks with Lemon Vinaigrette",
@@ -407,7 +407,7 @@
     "categories": ["Vegetables", "Grilling"],
     "allergens": [],
     "creator": "MrLeek420",
-    "image": "https://i.imgur.com/sJGORHA.jpeg"
+    "image": "https://i.postimg.cc/SQZR2JHp/Grilled-Leeks-with-Lemon-Vinaigrette.jpg"
 },
 {
     "name": "Garlic Butter Shrimp",
@@ -422,7 +422,7 @@
     "categories": ["Seafood"],
     "allergens": ["Shellfish", "Dairy"],
     "creator": "NomNomNom123",
-    "image": "https://i.imgur.com/oFlpos3.jpeg"
+    "image": "https://i.postimg.cc/152zBb9C/Garlic-Butter-Shrimp.jpg"
 },
 {
     "name": "Caprese Salad",
@@ -436,6 +436,6 @@
     "categories": ["Salad", "Italian"],
     "allergens": ["Dairy"],
     "creator": "Saladad",
-    "image": "https://i.imgur.com/DGBTLZK.jpeg"
+    "image": "https://i.postimg.cc/nz2z1zzB/Caprese-Salad.jpg"
 }
 ]
