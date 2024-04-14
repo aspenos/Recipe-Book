@@ -13,6 +13,8 @@ import cors from 'cors'
 const server = express();
 const PORT = process.env.PORT || 3000;
 
+console.log(`Your MongoDB URI is: ${process.env.MONGO_URI}`);
+
 server.use(express.json());
 server.use(cors());
 
