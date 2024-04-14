@@ -18,10 +18,13 @@ export const listAllRecipes = async (req, res) => {
 
 export const getRecipeById = async (req, res) => {
     try {
-        const recipe = await Recipe.findById(req.params.id).populate('ingredients categories allergens creator');
+        const recipe = await Recipe.findById(req.params.id)
+            .populate('categories allergens creator')
+            .populate({ path: 'ingredients', model: 'Ingredient' });
         if (!recipe) {
             return res.status(404).json({ message: 'Recipe not found' });
         }
+        console.log(recipe); 
         res.json(recipe);
     } catch (error) {
         res.status(500).json({ message: error.message });
