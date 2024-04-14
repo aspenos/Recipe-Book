@@ -29,14 +29,28 @@ export const getRecipeById = async (req, res) => {
 };
 
 export const createRecipe = async (req, res) => {
+    const { name, description, ingredients, categories, image } = req.body;
+
+    if (!req.userId) return res.status(401).json({ message: "Unauthorized" });
+
     try {
-        const newRecipe = new Recipe(req.body);
-        const savedRecipe = await newRecipe.save();
-        res.status(201).json(savedRecipe);
+        const newRecipe = new Recipe({
+            name,
+            description,
+            ingredients, // Directly use the array of strings
+            categories,
+            creator: req.userId, // Ensures the recipe is associated with the user
+            image
+        });
+
+        await newRecipe.save();
+        res.status(201).json(newRecipe);
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
 };
+
+
 
 export const updateRecipe = async (req, res) => {
     try {
