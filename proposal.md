@@ -39,6 +39,10 @@ As a user with dietary restrictions, I want to filter recipes by allergens so th
 As a user, I want to save recipes for later so that I can quickly find them when I have time to cook.
 As a user, I want to see recommended recipes based on my history and preferences so that I can discover new dishes.
 
+*ERD*
+
+![ERD](https://i.imgur.com/bJUpwM8.png)
+
 *Timeline*
 
 ![Timeline](https://i.imgur.com/7jRAZkr.png)
