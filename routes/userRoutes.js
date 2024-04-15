@@ -3,10 +3,10 @@ import { getUserProfile, getUserRecipes, addRecipeToFavorites, removeRecipeFromF
 
 const router = express.Router();
 
-// Get all users
+
 router.get('/', getAllUsers);
 
-// Get a single user profile
+
 router.get('/:userId', getUserProfile);
 
 router.get('/:userId/recipes', getUserRecipes);
@@ -17,10 +17,10 @@ router.post('/signup', registerUser);
 
 router.post('/login', loginUser);
 
-// Add a recipe to favorites
+
 router.post('/:userId/favorites/:recipeId', addRecipeToFavorites);
 
-// Remove a recipe from favorites
+
 router.delete('/:userId/favorites/:recipeId', removeRecipeFromFavorites);
 
 export default router;

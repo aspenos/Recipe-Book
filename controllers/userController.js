@@ -3,7 +3,7 @@ import Recipe from '../models/recipe.js';
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
 
-// Function to validate password strength
+
 const isPasswordStrong = (password) => {
     const minLength = 8;
     const hasNumbers = /\d/.test(password);

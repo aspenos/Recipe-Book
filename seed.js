@@ -22,7 +22,7 @@ const seedDB = async () => {
         await mongoose.connect(process.env.MONGO_URI);
         console.log('MongoDB connected...');
 
-        // Clear existing data
+       
         await Allergen.deleteMany({});
         await IngredientCategory.deleteMany({});
         await RecipeCategory.deleteMany({});
@@ -30,13 +30,13 @@ const seedDB = async () => {
         await Recipe.deleteMany({});
         await User.deleteMany({});
 
-        // Seed Allergens, IngredientCategories, and RecipeCategories
+       
         await Allergen.insertMany(allergens);
         await IngredientCategory.insertMany(ingredientCategories);
         await RecipeCategory.insertMany(recipeCategories);
         console.log('Allergens, Ingredient Categories, and Recipe Categories seeded successfully');
 
-        // Fetch and create maps for categories and allergens
+        
         const dbIngredientCategories = await IngredientCategory.find();
         const dbAllergens = await Allergen.find();
 
@@ -46,16 +46,16 @@ const seedDB = async () => {
         let allergenMap = {};
         dbAllergens.forEach(all => allergenMap[all.name] = all._id.toString());
 
-        // Seed Ingredients
+       
         const updatedIngredients = ingredients.map(ingredient => ({
             ...ingredient,
-            category: ingredient.category.map(name => categoryMap[name]), // Map names to ObjectIds
-            allergens: ingredient.allergens.map(name => allergenMap[name]) // Map names to ObjectIds
+            category: ingredient.category.map(name => categoryMap[name]), 
+            allergens: ingredient.allergens.map(name => allergenMap[name]) 
         }));
         await Ingredient.insertMany(updatedIngredients);
         console.log('Ingredients seeded successfully');
 
-        // Seed Users without favorites
+       
         const encryptedUsers = users.map(user => ({
             username: user.username,
             password: bcrypt.hashSync(user.password, 10),
@@ -64,7 +64,7 @@ const seedDB = async () => {
         await User.insertMany(encryptedUsers);
         console.log('Users seeded successfully');
 
-        // Prepare for Recipes seeding
+        
         const dbUsers = await User.find();
         let userMap = {};
         dbUsers.forEach(user => userMap[user.username] = user._id);
@@ -74,14 +74,14 @@ const seedDB = async () => {
         let recipeCategoryMap = {};
         dbRecipeCategories.forEach(cat => recipeCategoryMap[cat.name] = cat._id.toString());
 
-        // Seed Recipes
+        
         const updatedRecipes = recipes.map(recipe => ({
             ...recipe,
             ingredients: recipe.ingredients.map(ingName => {
                 const ingredient = dbIngredients.find(ing => ing.name === ingName);
                 return ingredient ? ingredient._id : null;
             }),
-            categories: recipe.categories.map(catName => recipeCategoryMap[catName] || null), // Map category names to ObjectIds
+            categories: recipe.categories.map(catName => recipeCategoryMap[catName] || null), 
             allergens: recipe.allergens.map(allName => allergenMap[allName] || null),
             creator: userMap[recipe.creator]
         }));

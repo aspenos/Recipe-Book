@@ -10,16 +10,28 @@ Access the app by cloning the project repository from GitHub to your local machi
 
 WireFrames/Screenshots:
 
-
+![Landing Page](https://i.imgur.com/Svv1IT4.png)
+![Login Page](https://i.imgur.com/x2XFYzT.png)
+![Register Page](https://i.imgur.com/8DmbrJb.png)
+![Recipe Listings](https://i.imgur.com/0NvFLfn.png)
+![Recipe Details](https://i.imgur.com/hhzwwTZ.png)
+![Favorites Page](https://i.imgur.com/ISAxorB.png)
+![Add/Edit Recipes](https://i.imgur.com/bPny42J.png)
+![Profile Page](https://i.imgur.com/bby6BoF.png)
 
 Timeline:
 
+![Timeline](https://i.imgur.com/7jRAZkr.png)
 
-Attributions: Recipe-Book was developed by Aris Spenos with the following resources and acknolwedgements: 
+Attributions: Recipe-Book was developed by Aris Spenos with the following resources: 
 
-API:
-Code Libraries:
-Inspiration: 
+MongoDB - Used as the database for storing data.
+Mongoose - Used for modeling MongoDB data in Node.js.
+Node.js - Used as the server-side JavaScript runtime environment.
+Express.js - Used for building the RESTful API endpoints.
+Postman - Used for API testing and development.
+MongoDB Atlas - Used for hosting the MongoDB database in the cloud.
+MongoDB Compass - Used for MongoDB database management and visualization.
 
 Next Steps: 
 

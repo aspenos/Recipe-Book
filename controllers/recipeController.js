@@ -40,9 +40,9 @@ export const createRecipe = async (req, res) => {
         const newRecipe = new Recipe({
             name,
             description,
-            ingredients, // Directly use the array of strings
+            ingredients, 
             categories,
-            creator: req.userId, // Ensures the recipe is associated with the user
+            creator: req.userId,
             image
         });
 

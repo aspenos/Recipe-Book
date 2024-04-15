@@ -12,7 +12,7 @@ const recipeSchema = new Schema({
         required: true
     },
     instructions: [String],
-    ingredients: [String], // Now accepts an array of strings.
+    ingredients: [String], 
     categories: [{
         type: Schema.Types.ObjectId,
         ref: 'RecipeCategory'

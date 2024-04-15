@@ -8,11 +8,14 @@ Recipe Book is a full-stack MEN (MongoDB, Express.js, Node.js) application that 
 
 *Wire Frames*
 
-Initial Landing View
-
-
-
-Results View
+![Landing Page](https://i.imgur.com/Svv1IT4.png)
+![Login Page](https://i.imgur.com/x2XFYzT.png)
+![Register Page](https://i.imgur.com/8DmbrJb.png)
+![Recipe Listings](https://i.imgur.com/0NvFLfn.png)
+![Recipe Details](https://i.imgur.com/hhzwwTZ.png)
+![Favorites Page](https://i.imgur.com/ISAxorB.png)
+![Add/Edit Recipes](https://i.imgur.com/bPny42J.png)
+![Profile Page](https://i.imgur.com/bby6BoF.png)
 
 
 *User Stories*
@@ -36,9 +39,6 @@ As a user with dietary restrictions, I want to filter recipes by allergens so th
 As a user, I want to save recipes for later so that I can quickly find them when I have time to cook.
 As a user, I want to see recommended recipes based on my history and preferences so that I can discover new dishes.
 
-*Pseudocode*
-
-
-
 *Timeline*
 
+![Timeline](https://i.imgur.com/7jRAZkr.png)
